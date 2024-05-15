@@ -5,8 +5,9 @@ Old project of my game server based on the San Andreas Multiplayer client.
 ## ToDo:
 - [x] Compile and run latest v.23-2f gamemode
 - [x] Create config for vscode for a right encoding suggestion (CP-1251)
-- [ ] Create a Dockerfile for easy installation SA-MP server\
-- [ ] Configure .gitignore for server files
+- [x] Create a Dockerfile for easy installation SA-MP server
+- [x] Configure .gitignore for server files
+- [x] Rewrite documentation for installation through ```make```
 - [ ] Adapt SA-MP mod for open.mp server
 - [ ] Attempt to restore the IPB forum engine
 
