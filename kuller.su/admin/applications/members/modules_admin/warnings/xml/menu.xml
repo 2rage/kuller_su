@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Причины</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Причины</subitemtitle>
+					<subitemlang>warn_reasons</subitemlang>
+					<subsection>reasons</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey></subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Действия</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Действия</subitemtitle>
+					<subitemlang>warn_actions</subitemlang>
+					<subsection>actions</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey></subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

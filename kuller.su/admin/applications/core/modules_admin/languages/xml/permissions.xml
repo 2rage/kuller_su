@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление языками</grouptitle>
+		<grouplang>core_languages</grouplang>
+		<items>
+			<item>
+				<key>lang_words</key>
+				<string>Может добавлять/изменять слова?</string>
+			</item>
+			<item>
+				<key>lang_packs</key>
+				<string>Может добавлять/изменять языковые наборы?</string>
+			</item>
+			<item>
+				<key>lang_pack_info</key>
+				<string>Может изменять настройки и информацию языковых наборов?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

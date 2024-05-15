@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Управление Приложениями</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Приложениями</subitemtitle>
+					<subitemlang>manage_apps_modules</subitemlang>
+					<subsection>applications</subsection>
+					<subitemurl>do=applications_overview</subitemurl>
+					<subitemrolekey>app_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Управление Хуками</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Хуками</subitemtitle>
+					<subitemlang>manage_hooks</subitemlang>
+					<subsection>hooks</subsection>
+					<subitemurl>do=hooks_overview</subitemurl>
+					<subitemrolekey>hooks_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Расширения</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Расширения</subitemtitle>
+					<subitemlang>community_enhancements</subitemlang>
+					<subsection>enhancements</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>enhancements_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

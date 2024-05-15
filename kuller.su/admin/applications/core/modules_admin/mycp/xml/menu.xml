@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Панель Управления</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Панель Управления</subitemtitle>
+					<subitemlang>dashboard</subitemlang>
+					<subsection>dashboard</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>dashboard</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Изменить Мои Данные</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Изменить Мои Данные</subitemtitle>
+					<subitemlang>mydetails</subitemlang>
+					<subsection>details</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey></subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

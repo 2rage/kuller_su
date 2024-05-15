@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление кешем</grouptitle>
+		<grouplang>core_caches</grouplang>
+		<items>
+			<item>
+				<key>cache_manage</key>
+				<string>Может посматривать и обновлять кеш?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление модулями авторизации</grouptitle>
+		<grouplang>core_login_modules</grouplang>
+		<items>
+			<item>
+				<key>login_manage</key>
+				<string>Может управлять модулями авторизации?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Система вопросов при регистрации</grouptitle>
+		<grouplang>core_qanda</grouplang>
+		<items>
+			<item>
+				<key>qanda_view</key>
+				<string>Может просматривать?</string>
+			</item>
+			<item>
+				<key>qa_manage</key>
+				<string>Может изменять, добавлять и удалять?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление разделами помощи</grouptitle>
+		<grouplang>core_helpfiles</grouplang>
+		<items>
+			<item>
+				<key>helpfiles_manage</key>
+				<string>Может просматривать?</string>
+			</item>
+			<item>
+				<key>help_manage</key>
+				<string>Может изменять/добавлять?</string>
+			</item>
+			<item>
+				<key>help_remove</key>
+				<string>Может удалять?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Пользователи API</grouptitle>
+		<grouplang>core_apiusers</grouplang>
+		<items>
+			<item>
+				<key>api_manage</key>
+				<string>Может изменять/добавлять?</string>
+			</item>
+			<item>
+				<key>api_remove</key>
+				<string>Может удалять?</string>
+			</item>
+			<item>
+				<key>api_logs</key>
+				<string>Может просматривать логи?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Сервисы публикации ссылок</grouptitle>
+		<grouplang>core_sharelinks</grouplang>
+		<items>
+			<item>
+				<key>sharelinks_manage</key>
+				<string>Может изменять/добавлять/удалять?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление User Agents</grouptitle>
+		<grouplang>core_uagents</grouplang>
+		<items>
+			<item>
+				<key>uagents</key>
+				<string>Может управлять?</string>
+			</item>
+			<item>
+				<key>ua_manage</key>
+				<string>Может изменять/добавлять группы и агенты?</string>
+			</item>
+			<item>
+				<key>ua_remove</key>
+				<string>Может удалять группы и агенты?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Инструменты очистки и перестроения</grouptitle>
+		<grouplang>core_cleanuprebuild</grouplang>
+		<items>
+			<item>
+				<key>rebuild_manage</key>
+				<string>Имеет доступ к инструментам перестроения?</string>
+			</item>
+			<item>
+				<key>cleanup_manage</key>
+				<string>Имеет доступ к инструментам пересчета?</string>
+			</item>
+			<item>
+				<key>tools_recount</key>
+				<string>Может производить пересчет статистики форума?</string>
+			</item>
+			<item>
+				<key>tools_resynch</key>
+				<string>Может производить пересчет статистики форумов?</string>
+			</item>
+			<item>
+				<key>tools_resyncht</key>
+				<string>Может производить пересчет статистики тем?</string>
+			</item>
+			<item>
+				<key>tools_rebuild</key>
+				<string>Может производить перестроение содержимого сообщений?</string>
+			</item>
+			<item>
+				<key>tools_postcounts</key>
+				<string>Может производить пересчет сообщений пользователей?</string>
+			</item>
+			<item>
+				<key>tools_thumbs</key>
+				<string>Может производить обновление изображений предпросмотра?</string>
+			</item>
+			<item>
+				<key>tools_attach</key>
+				<string>Может производить перестроение прикреплений?</string>
+			</item>
+			<item>
+				<key>tools_orphaned</key>
+				<string>Может удалять потерянные файлы?</string>
+			</item>
+			<item>
+				<key>tools_orphanp</key>
+				<string>Может удалять потерянные фотографии?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Правила входящей почты</grouptitle>
+		<grouplang>core_emailrules</grouplang>
+		<items>
+			<item>
+				<key>incomingemail_manage</key>
+				<string>Может управлять правилами?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

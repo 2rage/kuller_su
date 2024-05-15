@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление рассылками</grouptitle>
+		<grouplang>mem_bulkmail</grouplang>
+		<items>
+			<item>
+				<key>bulkmail_addedit</key>
+				<string>Может добавлять/изменять рассылки?</string>
+			</item>
+			<item>
+				<key>bulkmail_delete</key>
+				<string>Может удалять рассылки?</string>
+			</item>
+			<item>
+				<key>bulkmail_lists</key>
+				<string>Может управлять списком контактов?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Отправка рассылок</grouptitle>
+		<grouplang>mem_bulkmailsend</grouplang>
+		<items>
+			<item>
+				<key>bulkmail_view</key>
+				<string>Может просматривать текущие рассылки?</string>
+			</item>
+			<item>
+				<key>bulkmail_send</key>
+				<string>Может запускать отправку рассылки?</string>
+			</item>
+			<item>
+				<key>bulkmail_cancel</key>
+				<string>Может отменить отправку рассылки?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

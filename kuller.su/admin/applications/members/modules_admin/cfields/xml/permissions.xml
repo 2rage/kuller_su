@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Дополнительные поля профиля</grouptitle>
+		<grouplang>members_cfields</grouplang>
+		<items>
+			<item>
+				<key>profilefields_global</key>
+				<string>Может управлять полями?</string>
+			</item>
+			<item>
+				<key>profilefields_add</key>
+				<string>Может добавлять новые?</string>
+			</item>
+			<item>
+				<key>profilefields_edit</key>
+				<string>Может изменять?</string>
+			</item>
+			<item>
+				<key>profilefields_delete</key>
+				<string>Может удалять?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Группы полей</grouptitle>
+		<grouplang>members_cfieldgroups</grouplang>
+		<items>
+			<item>
+				<key>profilefieldgroups_global</key>
+				<string>Может управлять группами?</string>
+			</item>
+			<item>
+				<key>profilefieldgroups_add</key>
+				<string>Может добавлять новые?</string>
+			</item>
+			<item>
+				<key>profilefieldgroups_edit</key>
+				<string>Может изменять?</string>
+			</item>
+			<item>
+				<key>profilefieldgroups_delete</key>
+				<string>Может удалять?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Инструменты</grouptitle>
+		<grouplang>forums_tools</grouplang>
+		<items>
+			<item>
+				<key>ftools_deleteposts</key>
+				<string>Может удалять все сообщения пользователя?</string>
+			</item>
+			<item>
+				<key>ftools_deletesubscriptions</key>
+				<string>Может отменить все подписки пользователя на темы?</string>
+			</item>
+			<item>
+				<key>ftools_clearforumsubs</key>
+				<string>Может отменить все подписки пользователя на форумы?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates application="finalCountdown" templategroups="a:1:{s:19:&quot;skin_finalCountdown&quot;;s:5:&quot;exact&quot;;}">
+  <templategroup group="skin_finalCountdown">
+    <template>
+      <template_group>skin_finalCountdown</template_group>
+      <template_content><![CDATA[<div class='countdownWrapper'>
+	<div class='_sharedMediaBbcode'>
+		<div class='bbcode_mediaWrap'>
+			<div>
+				<img src='{$this->settings['public_dir']}/style_extra/finalCountdown/sharedmedia/countdown.png' alt='' class='sharedmedia_image' />
+			</div>
+			<div class='details' style="width: 430px;">
+				<h5>{IPSText::truncate( $countdown['name'], 60 )}</h5>
+				<div style="display:none; word-wrap: break-word" class="countdownInnerWrapper"><span class="styleHolder"><span class='before_txt'></span><span class="countdown countdown{$countdown['id']}"></span><span class='after_txt'></span></span></div>
+				<div class="countdownsLoading">{$this->lang->words['finalCountdown_sharedCountdownLoading']}</div>
+			</div>
+		</div>
+	</div>
+	<br />
+</div>]]></template_content>
+      <template_name>bbCodeCountdown</template_name>
+      <template_data>$countdown=array(), $includeJs = false</template_data>
+      <template_updated>1324228778</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>root</template_master_key>
+    </template>
+    <template>
+      <template_group>skin_finalCountdown</template_group>
+      <template_content><![CDATA[<if test="is_array( $countdowns ) AND count( $countdowns )">
+	<div class='ips_utilities_block ipsPad rounded clear clearfix' style='margin-top: 10px;'>
+		<ul>
+			<li class="countdownsLoading" align="center">{$this->lang->words['finalCountdown_countdownsLoading']}</li>
+			<foreach loop="$countdowns as $id => $countdown">
+				<li style="text-align:center; display:none;" class="countdownInnerWrapper">
+					<span class='styleHolder'>
+						<span class='before_txt'></span>
+						<span class="countdown{$id}"></span>
+						<span class='after_txt'></span>
+					</span>
+				</li>
+			</foreach>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		(function($) 
+		{
+			$( '.countdownsLoading' ).hide();
+			<foreach loop="$countdowns as $id => $countdown">
+				$( '.countdown{$id}' ).each( function()
+				{
+					if ( ! $( this ).hasClass( 'hasCountdown' ) )
+					{
+						$( this ).countdown(
+						{
+							until: new Date( '{$countdown['jstime']}' ),
+							timezone: {$countdown['jstimezone']},
+							format: ( '{$countdown['format']}' || 'yodHMS' ),
+							layout: ( '{$countdown['layout']}' || '{y<}{yn} {yl}, {y>}{o<}{on} {ol}, {o>}{d<}{dn} {dl}, {d>}{h<}{hn} {hl}, {h>}{m<}{mn} {ml}, {m>}{s<}and {sn} {sl}{s>}' ),
+							alwaysExpire: true,
+							expiryText: "{$countdown['event_msg']}",
+							onExpiry: function()
+							{
+								$( this ).next( '.after_txt' ).hide();
+								$( this ).prev( '.before_txt' ).hide();
+							}
+						});
+						$( this ).prev( '.before_txt' ).html( "{$countdown['before_txt']} " );
+						$( this ).next( '.after_txt' ).html( " {$countdown['after_txt']}" );
+						$( this ).closest( '.styleHolder' ).attr( 'style', "{$countdown['text_style']}" );
+						$( this ).closest( '.countdownInnerWrapper' ).show();
+					}
+					<if test="$countdown['text_style']">
+						else
+						{
+							/* Just applying style to existing embedded countdowns */
+							Debug.write( "Applying style to embedded countdown" );
+							$( this ).closest( '.styleHolder' ).attr( 'style', "{$countdown['text_style']}" )
+						}
+					</if>
+				});
+				
+			</foreach>
+		})(FCJQuery);
+	</script>
+</if>]]></template_content>
+      <template_name>finalCountdown_bottom</template_name>
+      <template_data>$countdowns=array()</template_data>
+      <template_updated>1324228778</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>root</template_master_key>
+    </template>
+    <template>
+      <template_group>skin_finalCountdown</template_group>
+      <template_content><![CDATA[<div class='ipsSideBlock clearfix'>
+	<h3>{$this->lang->words['finalCountdown_sidebarHeading']}</h3>
+	<div class='_sbcollapsable'>
+		<ul class='ipsList_withminiphoto block_list'>
+			<li class="countdownsLoading" align="center" class="clearfix">{$this->lang->words['finalCountdown_countdownsLoading']}</li>
+			<foreach loop="$countdowns as $id => $countdown">
+				<li style="text-align:center; display:none;" class="clearfix countdownInnerWrapper">
+					<span class='styleHolder'>
+						<span class='after_txt'>{$countdown['before_txt']} </span>
+						<span class="countdown{$id}"></span>
+						<span class='after_txt'> {$countdown['after_txt']}</span>
+					</span>
+				</li>
+			</foreach>
+		</ul>
+	</div>
+</div>
+<script type="text/javascript">
+	(function($) 
+	{
+		$( '.countdownsLoading' ).hide();
+		<foreach loop="$countdowns as $id => $countdown">
+			$( '.countdown{$id}' ).each( function()
+			{
+				if ( ! $( this ).hasClass( 'hasCountdown' ) )
+				{
+					$( this ).countdown(
+					{
+						until: new Date( '{$countdown['jstime']}' ),
+						timezone: {$countdown['jstimezone']},
+						format: ( '{$countdown['format']}' || 'yodHMS' ),
+						layout: ( '{$countdown['layout']}' || '{y<}{yn} {yl}, {y>}{o<}{on} {ol}, {o>}{d<}{dn} {dl}, {d>}{h<}{hn} {hl}, {h>}{m<}{mn} {ml}, {m>}{s<}and {sn} {sl}{s>}' ),
+						alwaysExpire: true,
+						expiryText: "{$countdown['event_msg']}",
+						onExpiry: function()
+						{
+							$( this ).next( '.after_txt' ).hide();
+							$( this ).prev( '.before_txt' ).hide();
+						}
+					});
+					
+					$( this ).prev( '.before_txt' ).html( "{$countdown['before_txt']} " );
+					$( this ).next( '.after_txt' ).html( " {$countdown['after_txt']}" );
+					$( this ).closest( '.styleHolder' ).attr( 'style', "{$countdown['text_style']}" );
+					$( this ).closest( '.countdownInnerWrapper' ).show();
+				}
+				<if test="$countdown['text_style']">
+					else
+					{
+						/* Just applying style to existing embedded countdowns */
+						Debug.write( "Applying style to embedded countdown" );
+						$( this ).closest( '.styleHolder' ).attr( 'style', "{$countdown['text_style']}" )
+					}
+				</if>
+			});
+		</foreach>
+	})(FCJQuery);
+</script>]]></template_content>
+      <template_name>finalCountdown_sidebar</template_name>
+      <template_data>$countdowns=array()</template_data>
+      <template_updated>1324228778</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>root</template_master_key>
+    </template>
+    <template>
+      <template_group>skin_finalCountdown</template_group>
+      <template_content><![CDATA[<div class='ips_utilities_block ipsPad rounded clear clearfix' style='margin-bottom: 10px;'>
+	<ul>
+		<li class="countdownsLoading" align="center">{$this->lang->words['finalCountdown_countdownsLoading']}</li>
+		<foreach loop="$countdowns as $id => $countdown">
+			<li style="text-align:center; display:none;" class="countdownInnerWrapper">
+				<span class='styleHolder'>
+					<span class='after_txt'>{$countdown['before_txt']} </span>
+					<span class="countdown{$id}"></span>
+					<span class='after_txt'> {$countdown['after_txt']}</span>
+				</span>
+			</li>
+		</foreach>
+	</ul>
+</div>
+<script type="text/javascript">
+	(function($) 
+	{
+		$( document ).ready( function()
+		{
+			$( '.countdownsLoading' ).hide();
+			<foreach loop="$countdowns as $id => $countdown">
+				$( '.countdown{$id}' ).each( function()
+				{
+					if ( ! $( this ).hasClass( 'hasCountdown' ) )
+					{
+						$( this ).countdown(
+						{
+							until: new Date( '{$countdown['jstime']}' ),
+							timezone: {$countdown['jstimezone']},
+							format: ( '{$countdown['format']}' || 'yodHMS' ),
+							layout: ( '{$countdown['layout']}' || '{y<}{yn} {yl}, {y>}{o<}{on} {ol}, {o>}{d<}{dn} {dl}, {d>}{h<}{hn} {hl}, {h>}{m<}{mn} {ml}, {m>}{s<}and {sn} {sl}{s>}' ),
+							alwaysExpire: true,
+							expiryText: "{$countdown['event_msg']}",
+							onExpiry: function()
+							{
+								$( this ).next( '.after_txt' ).hide();
+								$( this ).prev( '.before_txt' ).hide();
+							}
+						});
+						
+						$( this ).prev( '.before_txt' ).html( "{$countdown['before_txt']} " );
+						$( this ).next( '.after_txt' ).html( " {$countdown['after_txt']}" );
+						$( this ).closest( '.styleHolder' ).attr( 'style', "{$countdown['text_style']}" );
+						$( this ).closest( '.countdownInnerWrapper' ).show();
+					}
+					<if test="$countdown['text_style']">
+						else
+						{
+							/* Just applying style to existing embedded countdowns */
+							Debug.write( "Applying style to embedded countdown" );
+							$( this ).closest( '.styleHolder' ).attr( 'style', "{$countdown['text_style']}" );
+						}
+					</if>
+				});
+				
+			</foreach>
+		});
+	})(FCJQuery);
+</script>]]></template_content>
+      <template_name>finalCountdown_top</template_name>
+      <template_data>$countdowns=array()</template_data>
+      <template_updated>1324228778</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>root</template_master_key>
+    </template>
+    <template>
+      <template_group>skin_finalCountdown</template_group>
+      <template_content><![CDATA[<script type='text/javascript'>! window.jQuery && document.write('<script src="{$this->settings['public_dir']}js/finalCountdown/jquery-1.6.4.min.js"><\/script>')</script>
+<script type="text/javascript">
+	/* Issue with custom skins that use jQ and give them a wicked variable name forced me to do this */
+	var FCJQuery = jQuery.noConflict();
+</script>
+<script type="text/javascript" src="{$this->settings['public_dir']}js/finalCountdown/jquery.countdown.min.js"></script>
+<if test="$localeFile != ''">
+	<script type="text/javascript" src="{$this->settings['public_dir']}{$localeFile}"></script>
+</if>
+<script type="text/javascript" src="{$this->settings['public_dir']}js/ips.finalCountdown.js?_v=11000"></script>
+<style type='text/css'>
+	.ips_utilities_block {
+		background: #fcfcfc; /* Old browsers */
+		background: -moz-linear-gradient(top, #fcfcfc 0%, #e5e5e5 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fcfcfc), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+		border: 1px solid #e5e5e5;
+	}
+</style>]]></template_content>
+      <template_name>finalCountdownIncludeJs</template_name>
+      <template_data><![CDATA[$localeFile = ""]]></template_data>
+      <template_updated>1324228778</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>root</template_master_key>
+    </template>
+    <template>
+      <template_group>skin_finalCountdown</template_group>
+      <template_content><![CDATA[<div class='clearfix'>
+	{$pages}
+</div>
+<div>
+	<ul class='media_results'>
+		<if test="hasrows:|:count($rows)">
+			<foreach loop="genericmedia:$rows as $row">
+				<li class='result' onclick="return CKEDITOR.plugins.ipsmedia.insert( '{$row['insert']}' );">
+					<if test="hasimage:|:$row['image']">
+							<img src='{$row['image']}' alt=''<if test="haswidth:|:$row['width']"> width='{$row['width']}'</if><if test="hasheight:|:$row['height']"> height='{$row['height']}'</if> style='max-width: 80px;' class='media_image' /><br />
+					</if>
+					
+						<strong>{parse expression="IPSText::truncate( $row['title'], 15 )"}</strong>
+						<if test="hasdescription:|:$row['desc']">
+							<br /><span class='desc'>{$row['desc']}</span>
+						</if>
+				</li>
+			</foreach>
+		<else />
+			<li class='no_messages'>
+				{$this->lang->words['no_mymedia_rows']}
+			</li>
+		</if>
+	</ul>
+</div>
+<div class='clearfix'>
+	{$pages}
+</div>]]></template_content>
+      <template_name>mediaCountdownWrapper</template_name>
+      <template_data>$rows, $pages, $app, $plugin</template_data>
+      <template_updated>1324228778</template_updated>
+      <template_removable>0</template_removable>
+      <template_user_added>0</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>root</template_master_key>
+    </template>
+  </templategroup>
+</templates>

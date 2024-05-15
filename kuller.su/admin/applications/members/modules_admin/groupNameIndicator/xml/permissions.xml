@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление порядком отображения</grouptitle>
+		<items>
+			<item>
+				<key>gni_manage</key>
+				<string>Может управлять порядком отображения?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

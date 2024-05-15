@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemap>
+<loc>http://kuller.su/index.php?app=core&amp;module=global&amp;section=sitemap&amp;sitemap=sitemap_core_topics.xml.gz</loc>
+<lastmod>2013-06-10T04:00:49+00:00</lastmod>
+</sitemap>
+<sitemap>
+<loc>http://kuller.su/index.php?app=core&amp;module=global&amp;section=sitemap&amp;sitemap=sitemap_core_core.xml.gz</loc>
+<lastmod>2013-06-10T04:00:49+00:00</lastmod>
+</sitemap>
+<sitemap>
+<loc>http://kuller.su/index.php?app=core&amp;module=global&amp;section=sitemap&amp;sitemap=sitemap_core_forums.xml.gz</loc>
+<lastmod>2013-06-10T04:00:49+00:00</lastmod>
+</sitemap>
+</sitemapindex>

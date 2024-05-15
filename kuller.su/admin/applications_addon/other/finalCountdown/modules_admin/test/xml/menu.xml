@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Тестовый отчет</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Тестовый отчет</subitemtitle>
+					<subsection>test</subsection>
+					<subitemurl></subitemurl>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

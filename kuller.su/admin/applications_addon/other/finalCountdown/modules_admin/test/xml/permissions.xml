@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Подпись недели</grouptitle>
+		<items>
+			<item>
+				<key>sotw_newComp</key>
+				<string>Может добавить новый конкурс?</string>
+			</item>
+			<item>
+				<key>sotw_mgeComps</key>
+				<string>Может управлять соревнованием?</string>
+			</item>
+			<item>
+				<key>sotw_mgeEntries</key>
+				<string>Может управлять записями?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

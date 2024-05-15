@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Управление отсчетом</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление отсчетом</subitemtitle>
+					<subsection>core</subsection>
+					<subitemurl>do=manageCountdowns</subitemurl>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление группами</grouptitle>
+		<grouplang>members_groups</grouplang>
+		<items>
+			<item>
+				<key>groups_add</key>
+				<string>Может добавлять группы?</string>
+			</item>
+			<item>
+				<key>groups_add_admin</key>
+				<string>Может добавлять АДМИНИСТРАТОРСКИЕ группы?</string>
+			</item>
+			<item>
+				<key>groups_edit</key>
+				<string>Может редактировать группы?</string>
+			</item>
+			<item>
+				<key>groups_edit_admin</key>
+				<string>Может редактировать АДМИНИСТРАТОРСКИЕ группы?</string>
+			</item>
+			<item>
+				<key>groups_delete</key>
+				<string>Может удалять группы?</string>
+			</item>
+			<item>
+				<key>groups_delete_admin</key>
+				<string>Может удалять АДМИНИСТРАТОРСКИЕ группы?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление правами</grouptitle>
+		<grouplang>members_perms</grouplang>
+		<items>
+			<item>
+				<key>perms_manage</key>
+				<string>Может добавлять и редактировать маски доступа?</string>
+			</item>
+			<item>
+				<key>perms_delete</key>
+				<string>Может удалять маски доступа?</string>
+			</item>
+		</items>
+	</group>	
+</permissions>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Настройки</grouptitle>
+		<items>
+			<item>
+				<key>manage_settings</key>
+				<string>Может просматривать/сохранять настройки?</string>
+			</item>	
+		</items>
+	</group>
+</permissions>

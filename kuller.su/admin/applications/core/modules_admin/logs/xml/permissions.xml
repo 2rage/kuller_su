@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Журнал действий администраторов</grouptitle>
+		<grouplang>core_adminlogs</grouplang>
+		<items>
+			<item>
+				<key>adminlogs_view</key>
+				<string>Может просматривать журнал?</string>
+			</item>
+			<item>
+				<key>adminlogs_delete</key>
+				<string>Может удалять записи?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Журнал входа администраторов</grouptitle>
+		<grouplang>core_acp_loginlogs</grouplang>
+		<items>
+			<item>
+				<key>acplogin_log</key>
+				<string>Может просматривать журнал входа администраторов?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Журнал действий модераторов</grouptitle>
+		<grouplang>core_modlogs</grouplang>
+		<items>
+			<item>
+				<key>modlogs_view</key>
+				<string>Может просматривать журнал?</string>
+			</item>
+			<item>
+				<key>modlogs_delete</key>
+				<string>Может удалять записи?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Журнал ошибок Email</grouptitle>
+		<grouplang>core_eelogs</grouplang>
+		<items>
+			<item>
+				<key>emailerrorlogs_view</key>
+				<string>Может просматривать журнал?</string>
+			</item>
+			<item>
+				<key>emailerrorlogs_delete</key>
+				<string>Может удалять записи?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Журнал действий поисковых роботов</grouptitle>
+		<grouplang>core_spiderlogs</grouplang>
+		<items>
+			<item>
+				<key>spiderlogs_view</key>
+				<string>Может просматривать журнал?</string>
+			</item>
+			<item>
+				<key>spiderlogs_delete</key>
+				<string>Может удалять записи?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Журнал предупреждений</grouptitle>
+		<grouplang>core_warnlogs</grouplang>
+		<items>
+			<item>
+				<key>warnlogs_view</key>
+				<string>Может просматривать журнал?</string>
+			</item>
+			<item>
+				<key>warnlogs_delete</key>
+				<string>Может удалять записи?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Журнал ошибок системы</grouptitle>
+		<grouplang>core_errorlogs</grouplang>
+		<items>
+			<item>
+				<key>errorlogs_view</key>
+				<string>Может просматривать журнал?</string>
+			</item>
+			<item>
+				<key>errorlogs_delete</key>
+				<string>Может удалять записи?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Журнал SQL ошибок</grouptitle>
+		<grouplang>core_selogs</grouplang>
+		<items>
+			<item>
+				<key>sqlerrorlogs_view</key>
+				<string>Может просматривать журнал?</string>
+			</item>
+			<item>
+				<key>sqlerrorlogs_delete</key>
+				<string>Может удалять записи?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

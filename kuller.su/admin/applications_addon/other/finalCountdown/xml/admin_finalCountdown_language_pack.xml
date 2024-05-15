@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languageexport>
+  <languagegroup>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>setting_staff_tag</word_key>
+      <word_default> ( Администрация ) </word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+06:00</word_key>
+      <word_default>(GMT + 6:00 hours) Almaty, Colombo, Dhaka</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>countdownHeadertitle</word_key>
+      <word_default>Отсчет(ы)</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-05:00</word_key>
+      <word_default><![CDATA[(GMT - 5:00 hours) Eastern Time (US &amp; Canada), Bogota, Lima]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-04:00</word_key>
+      <word_default>(GMT - 4:00 hours) Atlantic Time (Canada), Caracas, La Paz</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-03:00</word_key>
+      <word_default>(GMT - 3:00 hours) Brazil, Buenos Aires, Falkland Is.</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-03:30</word_key>
+      <word_default>(GMT - 3:30 hours) Newfoundland</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-02:00</word_key>
+      <word_default>(GMT - 2:00 hours) Mid-Atlantic, Ascention Is., St Helena</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-01:00</word_key>
+      <word_default>(GMT - 1:00 hours) Azores, Cape Verde Islands</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+00:00</word_key>
+      <word_default>(GMT) Casablanca, Dublin, London, Lisbon, Monrovia</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+02:00</word_key>
+      <word_default>(GMT + 2:00 hours) Kaliningrad, South Africa</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+01:00</word_key>
+      <word_default>(GMT + 1:00 hours) Brussels, Copenhagen, Madrid, Paris</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+04:30</word_key>
+      <word_default>(GMT + 4:30 hours) Kabul</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+05:00</word_key>
+      <word_default>(GMT + 5:00 hours) Ekaterinburg, Karachi, Tashkent</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+04:00</word_key>
+      <word_default>(GMT + 4:00 hours) Abu Dhabi, Baku, Muscat, Tbilisi</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+03:00</word_key>
+      <word_default>(GMT + 3:00 hours) Baghdad, Riyadh, Moscow, Nairobi</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+03:30</word_key>
+      <word_default>(GMT + 3:30 hours) Tehran</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+08:00</word_key>
+      <word_default>(GMT + 8:00 hours) Hong Kong, Perth, Singapore, Taipei</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+07:00</word_key>
+      <word_default>(GMT + 7:00 hours) Bangkok, Hanoi, Jakarta</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+06:30</word_key>
+      <word_default>(GMT + 6:30 hours) Yangon, Naypyidaw, Bantam</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+05:30</word_key>
+      <word_default>(GMT + 5:30 hours) Bombay, Calcutta, Madras, New Delhi</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+05:45</word_key>
+      <word_default>(GMT + 5:45 hours) Kathmandu</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+09:30</word_key>
+      <word_default>(GMT + 9:30 hours) Adelaide, Darwin</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+09:00</word_key>
+      <word_default>(GMT + 9:00 hours) Osaka, Sapporo, Seoul, Tokyo, Yakutsk</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+08:45</word_key>
+      <word_default>(GMT + 8:45 hours) Caiguna, Eucla</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+10:00</word_key>
+      <word_default>(GMT + 10:00 hours) Melbourne, Papua New Guinea, Sydney</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+11:00</word_key>
+      <word_default>(GMT + 11:00 hours) Magadan, New Caledonia, Solomon Is.</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+10:30</word_key>
+      <word_default>(GMT + 10:30 hours) Lord Howe Island</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+11:30</word_key>
+      <word_default>(GMT + 11:30 hours) Burnt Pine, Kingston</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+12:00</word_key>
+      <word_default>(GMT + 12:00 hours) Auckland, Fiji, Marshall Island</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+12:45</word_key>
+      <word_default>(GMT + 12:45 hours) Chatham Islands</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+13:00</word_key>
+      <word_default>(GMT + 13:00 hours) Kamchatka, Anadyr</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_+14:00</word_key>
+      <word_default>(GMT + 14:00 hours) Kiritimati</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>redirAdded</word_key>
+      <word_default>Countdown added</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-12:00</word_key>
+      <word_default>(GMT - 12:00 hours) Enitwetok, Kwajalien</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-11:00</word_key>
+      <word_default>(GMT - 11:00 hours) Midway Island, Samoa</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-10:00</word_key>
+      <word_default>(GMT - 10:00 hours) Hawaii</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-09:00</word_key>
+      <word_default>(GMT - 9:00 hours) Alaska</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-09:30</word_key>
+      <word_default>(GMT - 9:30 hours) French Polynesia</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-08:00</word_key>
+      <word_default><![CDATA[(GMT - 8:00 hours) Pacific Time (US &amp; Canada)]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-06:00</word_key>
+      <word_default><![CDATA[(GMT - 6:00 hours) Central Time (US &amp; Canada), Mexico City]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>timezone_-07:00</word_key>
+      <word_default><![CDATA[(GMT - 7:00 hours) Mountain Time (US &amp; Canada)]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>redirDeleted</word_key>
+      <word_default>Отсчет удален</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>redirEdited</word_key>
+      <word_default>Отсчет изменен</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formViewInForums</word_key>
+      <word_default>Ограничение на следующих форумах:</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formViewInCcs</word_key>
+      <word_default>Ограничить на следующих страницах IP.Content</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formViewIn</word_key>
+      <word_default>Выберите раздел страницы:</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formSave</word_key>
+      <word_default>Сохранить</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formShowOnOtherAppsDesc</word_key>
+      <word_default><![CDATA[Включите, чтобы показать обратный отсчет в позициях выше в приложениях, где ограничения ниже, не применяются.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formStepPerms</word_key>
+      <word_default>Ограничения</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formStepBasic</word_key>
+      <word_default>Настройки</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formShowOnOtherApps</word_key>
+      <word_default>Показать в других приложениях?</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formEventMsgDesc</word_key>
+      <word_default><![CDATA[Пример: "Эпизод ... в настоящее время показывается"<br /><br/><strong>Разрешенные теги:</strong> {date} и {time}]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formTextBefore</word_key>
+      <word_default>Текст, чтобы показать перед счетчиком обратного отсчета</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formTextBeforeDesc</word_key>
+      <word_default><![CDATA[Пример: "Следующий эпизод ... Будет показан"<br /><br/><strong>Разрешенные теги:</strong> {date} и {time}]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formTextAfterDesc</word_key>
+      <word_default><![CDATA[Пример: "до следующего эпизода ..."<br /><br/><strong>Разрешенные теги:</strong> {date} и {time}]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formTextAfter</word_key>
+      <word_default>Текст для отображения после обратного отсчета счетчика</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formTimezoneLocal</word_key>
+      <word_default> -- Часовые пояса пользователей --</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formTextStyle</word_key>
+      <word_default>Форматировать</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formTextStyleDesc</word_key>
+      <word_default><![CDATA[приводит к изменению форматирования (цвет, шрифт и т.д.).<br />(Пример: color:red; font-weight:bold; )]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formTime</word_key>
+      <word_default>Выберите время</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formTimezone</word_key>
+      <word_default>Выберите часовой пояс</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formTimezoneDesc</word_key>
+      <word_default><![CDATA[Если вы выбрали правильный часовой, а время показывает не правильно, то <span style='border-bottom: 2px dotted #c8c8c8; cursor: pointer;' data-tooltip='Летнее время'>DST</span>. Исправить можно, выбрав часовой пояс на час больше или меньше.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formRestrictToCcs</word_key>
+      <word_default>Ограничить IP.Content страницы</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formRestrictToForums</word_key>
+      <word_default>Ограничение на форумах?</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formName</word_key>
+      <word_default>Введите название для обратного отсчета</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formModules</word_key>
+      <word_default>Модули / страниц, чтобы показать обратный отсчет:</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formLifetimeDesc</word_key>
+      <word_default>Введите значение в минутах</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formLifetime</word_key>
+      <word_default>Срок завершения отсчета?</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formGroup</word_key>
+      <word_default>Кто может просматривать обратный отсчет?</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formLayout</word_key>
+      <word_default>Расположение счетчика</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formLayoutDesc</word_key>
+      <word_default><![CDATA[Просмотрите <a href='http://keith-wood.name/countdownRef.html#layout' rel='external'>ссылку</a> для деталей.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formForumDesc</word_key>
+      <word_default>You may choose more than one.</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formFormatDesc</word_key>
+      <word_default><![CDATA[Просмотрите <a href='http://keith-wood.name/countdownRef.html#format' rel='external'>ссылку</a> для деталей.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formEnable</word_key>
+      <word_default>Включить обратный отсчет?</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formExpertOnly</word_key>
+      <word_default><![CDATA[<strong>Только мастер</strong>]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formEventMsg</word_key>
+      <word_default>Текст, когда отсчет закончится</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formFormat</word_key>
+      <word_default>Формат счетчика</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formDeleteConf</word_key>
+      <word_default>Вы действительно хотите удалить этот отсчет?</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formClone</word_key>
+      <word_default>Копирование отсчета</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formCcsFrontpage</word_key>
+      <word_default> -- ГЛАВНАЯ СТРАНИЦА -- </word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formBoardIndex</word_key>
+      <word_default> -- ТЕМЫ --</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formAllForums</word_key>
+      <word_default> -- ВЕСЬ ФОРУМ --</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formAllPages</word_key>
+      <word_default> -- ВСЕ СТАРНИЦЫ --</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formAllowEmbed</word_key>
+      <word_default>Разрешить включать в сообщения?</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formAdd</word_key>
+      <word_default>Добавить отсчет</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formAllGroups</word_key>
+      <word_default>Все текущие и будущие группы</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formDelete</word_key>
+      <word_default>Да, я уверен</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>formBBcode</word_key>
+      <word_default><![CDATA[<strong>BBCode включен</strong>]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageTime</word_key>
+      <word_default>Дата отсчета</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageToggleTooltip</word_key>
+      <word_default>Тип: Вы можете нажать чтобы переключить состояние</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageRestrictedToCcs</word_key>
+      <word_default>Ограничено %d страниц IP.Content</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageRestrictedToForums</word_key>
+      <word_default>ограничено %d форумы</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageStatus</word_key>
+      <word_default>Статус:</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageRecache</word_key>
+      <word_default>Обновить кеши</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageRecached</word_key>
+      <word_default>Кеши отсчетов обновлены</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageLocalTimezoneTooltip</word_key>
+      <word_default>Обратный отсчет до этой даты пользователя местного часового пояса</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageName</word_key>
+      <word_default>Название</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageNoCountdowns</word_key>
+      <word_default><![CDATA[Вы не добавили отсчет]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>managePos</word_key>
+      <word_default>Позиция</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageEnabled</word_key>
+      <word_default>Включить</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageLocalTimezone</word_key>
+      <word_default>Часовой пояс пользователя</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageEmbed</word_key>
+      <word_default>Могут быть встроены?</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageEdit</word_key>
+      <word_default>Изменить отсчет</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageDel</word_key>
+      <word_default>Удалить отсчет</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageCloneCountdown</word_key>
+      <word_default>Копировать отсчет</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageAdd</word_key>
+      <word_default>Добавить новый отсчет</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>delTitle</word_key>
+      <word_default><![CDATA[Удалить обратный отсчет "%s"?]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>manageTitle</word_key>
+      <word_default>Управление отсчетами</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>addTitle</word_key>
+      <word_default>Добавление новых отсчетов</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>cloneTitle</word_key>
+      <word_default>Копирование отсчетов</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>editTitle</word_key>
+      <word_default>Изменение отсчетов</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>errorEmptyId</word_key>
+      <word_default>Неизвестный ID</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>errorIncorrectTime</word_key>
+      <word_default>Одно из полей даты пустое</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>errorNoText</word_key>
+      <word_default>Вы должны написать текст, чтобы показать, до или после обратного отсчета времени.</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>errorNoName</word_key>
+      <word_default>Вы должны ввести название обратного отсчета!</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>errorNoCountdowns</word_key>
+      <word_default>Нет такого обратного отсчета</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>globalTitle</word_key>
+      <word_default><![CDATA[Финальный отсчет времени]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>errorNotEnabled</word_key>
+      <word_default><![CDATA[Вы должны <a href="%s">включить модификацию</a> прежде чем вы сможете продолжить.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>admin_core</word_pack>
+      <word_key>testCountdownsTitle</word_key>
+      <word_default>Тестирование всех отсчетов</word_default>
+    </lang>
+  </languagegroup>
+</languageexport>

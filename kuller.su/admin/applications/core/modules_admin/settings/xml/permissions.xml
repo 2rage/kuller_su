@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Настройки системы</grouptitle>
+		<grouplang>core_settings</grouplang>
+		<items>
+			<item>
+				<key>settings_manage</key>
+				<string>Может изменять/добавлять группы настроек?</string>
+			</item>
+			<item>
+				<key>settings_delete</key>
+				<string>Может удалять группы настроек?</string>
+			</item>
+			<item>
+				<key>performance_toggle</key>
+				<string>Может включать режим производительности?</string>
+			</item>
+			<item>
+				<key>licensekey_manage</key>
+				<string>Может работать с информацией о лицензии?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

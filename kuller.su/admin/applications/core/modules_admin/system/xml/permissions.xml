@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Центр безопасности</grouptitle>
+		<grouplang>core_security</grouplang>
+		<items>
+			<item>
+				<key>security_center</key>
+				<string>Может просматривать центр безопасности?</string>
+			</item>
+			<item>
+				<key>acplink_remove</key>
+				<string>Может удалить ссылку на АЦ?</string>
+			</item>
+			<item>
+				<key>deepscan</key>
+				<string>Может запустить глубокое сканирование на подозрительные файлы?</string>
+			</item>
+			<item>
+				<key>virus_checker</key>
+				<string>Может запустить обычное сканирование на подозрительные файлы?</string>
+			</item>
+			<item>
+				<key>list_admins</key>
+				<string>Может просматривать список пользователей, имеющих доступ в АЦ?</string>
+			</item>
+			<item>
+				<key>htaccess_protection</key>
+				<string>Может создать .htaccess для защиты директорий?</string>
+			</item>
+			<item>
+				<key>nowrite_conf_global</key>
+				<string>Может сделать conf_global.php незаписываемым?</string>
+			</item>
+			<item>
+				<key>acp_rename</key>
+				<string>Может переименовать директорию АЦ?</string>
+			</item>
+			<item>
+				<key>acp_htaccess</key>
+				<string>Может создать .htaccess для защиты АЦ?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление задачами планировщика</grouptitle>
+		<grouplang>core_tasks</grouplang>
+		<items>
+			<item>
+				<key>task_manage</key>
+				<string>Может добавлять/изменять задачи?</string>
+			</item>
+			<item>
+				<key>task_remove</key>
+				<string>Может удалять задачи?</string>
+			</item>
+			<item>
+				<key>task_run_lock</key>
+				<string>Может блокировать выполнение задач или запускать задачи вручную?</string>
+			</item>
+			<item>
+				<key>tasklogs_view</key>
+				<string>Может просматривать журнал задач?</string>
+			</item>
+			<item>
+				<key>tasklogs_delete</key>
+				<string>Может удалять записи из журнала?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

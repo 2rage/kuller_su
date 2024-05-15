@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hookexport>
+  <hookdata>
+    <config>
+      <hook_name>Русские буквы в списке пользователей</hook_name>
+      <hook_desc>Добавление букв русского языка к фильтру по списку пользователей</hook_desc>
+      <hook_author>IBResource, LTD</hook_author>
+      <hook_email>sales@ibresource.ru</hook_email>
+      <hook_website>http://www.ibresource.ru</hook_website>
+      <hook_update_check/>
+      <hook_requirements><![CDATA[a:4:{s:20:"hook_ipb_version_min";i:0;s:20:"hook_ipb_version_max";i:0;s:20:"hook_php_version_min";s:0:"";s:20:"hook_php_version_max";s:0:"";}]]></hook_requirements>
+      <hook_version_human>1.1.0</hook_version_human>
+      <hook_version_long>10010</hook_version_long>
+      <hook_extra_data><![CDATA[a:3:{s:7:"display";a:2:{s:9:"templates";s:32:"От skin_mlist: member_alpha_ru";s:3:"css";s:34:"CSS файлы: 1: ipb_mlist_addon";}s:9:"templates";a:1:{s:10:"skin_mlist";a:1:{s:15:"member_alpha_ru";s:15:"member_alpha_ru";}}s:3:"css";a:1:{s:15:"ipb_mlist_addon";s:15:"ipb_mlist_addon";}}]]></hook_extra_data>
+      <hook_key>ibr_mlist_alpha_ru</hook_key>
+      <hook_global_caches/>
+    </config>
+  </hookdata>
+  <hookfiles>
+    <file>
+      <hook_file_real>mlist_aplharu.php</hook_file_real>
+      <hook_type>templateHooks</hook_type>
+      <hook_classname>alpha</hook_classname>
+      <hook_data><![CDATA[a:8:{s:12:"dataLocation";s:0:"";s:14:"libApplication";s:0:"";s:15:"classToOverload";s:0:"";s:9:"skinGroup";s:10:"skin_mlist";s:12:"skinFunction";s:16:"member_list_show";s:4:"type";s:7:"foreach";s:2:"id";s:5:"chars";s:8:"position";s:10:"outer.post";}]]></hook_data>
+      <hooks_source><![CDATA[<?php
+
+class alpha
+{
+	public function getOutput()
+	{
+	    $template = ipsRegistry::instance()->output->getTemplate('mlist')->member_alpha_ru(
+	        ipsRegistry::instance()->output->getTemplate('mlist')->functionData['member_list_show'][0]['url']
+	    );
+	    
+        $js = <<<JS
+
+				<script type='text/javascript'>
+					$('alpha_switch').observe('click', function(){
+							if( $('mlist_tabs_ru') )
+							{
+								$('mlist_tabs').toggle();
+								$('mlist_tabs_ru').toggle();
+							}
+					} );
+
+					$('alpha_switch_en').observe('click', function(){
+							if( $('mlist_tabs') )
+							{
+								$('mlist_tabs').toggle();
+								$('mlist_tabs_ru').toggle();
+							}
+					} );
+
+JS;
+        if ( ord( urldecode(ipsRegistry::$request['quickjump']) ) > 90 )
+        {
+            $js .= <<<JS
+					$('mlist_tabs').toggle();
+JS;
+        }
+        else
+        {
+            $js .= <<<JS
+					$('mlist_tabs_ru').toggle();
+JS;
+        }
+        
+        $js .= <<<JS
+				</script>
+JS;
+        
+        return $template . $js;
+	}
+}]]></hooks_source>
+    </file>
+  </hookfiles>
+  <hookextras_settings/>
+  <hookextras_language/>
+  <hookextras_modules/>
+  <hookextras_help/>
+  <hookextras_templates>
+    <templates>
+      <template_group>skin_mlist</template_group>
+      <template_content><![CDATA[<li id='alpha_switch' class='clickable'>РУС</li>
+		</ul>
+	</div>
+
+	<div class='ipsVerticalTabbed_tabs ipsVerticalTabbed_minitabs ipsLayout_left' id='mlist_tabs_ru'>
+		<ul>
+    		<if test="letterquickjump:|:!$this->request['quickjump']">
+    			<li class='active'><a href='{parse url="app=members&amp;module=list" template="members_list" base="public" seotitle="false"}' title='{$this->lang->words['members_start_with']}{$letter}'>{$this->lang->words['mlist_view_all_txt']}</a></li>
+    		<else />
+    			<li><a href='{parse url="app=members&amp;module=list" template="members_list" base="public" seotitle="false"}' title='{$this->lang->words['mlist_view_all_title']}'>{$this->lang->words['mlist_view_all_txt']}</a></li>
+    		</if>
+    <foreach loop="array('А','Б','В','Г','Д','Е','Ё','Ж','З','И','Й','К','Л','М','Н','О','П','Р','С','Т','У','Ф','Х','Ц','Ч','Ш','Щ','Ъ','Ы','Ь','Э','Ю','Я') as $char">
+    	<if test="letterdefault:|:$letter=urlencode($char)">
+          	<li <if test="selected:|:$this->request['quickjump'] AND ($this->request['quickjump'] == $letter OR $this->request['quickjump'] == $char)">class='active'</if>><a href='{parse url="{$url}&amp;quickjump={$letter}" template="members_list" base="public" seotitle="false"}' title='{$this->lang->words['mlist_view_start_title']} {$char}'>{$char}</a></li>
+    	</if>
+    </foreach>
+            <li id='alpha_switch_en' class='clickable'>АНГ</li>
+]]></template_content>
+      <template_name>member_alpha_ru</template_name>
+      <template_data>$url=''</template_data>
+      <template_updated>1280429247</template_updated>
+      <template_removable>1</template_removable>
+      <template_added_to>1</template_added_to>
+      <template_user_added>1</template_user_added>
+      <template_user_edited>0</template_user_edited>
+      <template_master_key>root</template_master_key>
+    </templates>
+  </hookextras_templates>
+  <hookextras_css>
+    <css>
+      <css_updated>0</css_updated>
+      <css_group>ipb_mlist_addon</css_group>
+      <css_content><![CDATA[#mlist_tabs_ru { margin-top: 35px; }
+      	#mlist_tabs_ru li { text-align: center; }
+      		#mlist_tabs_ru li a { padding: 5px 8px; }]]></css_content>
+      <css_position>0</css_position>
+      <css_added_to>1</css_added_to>
+      <css_app/>
+      <css_app_hide>0</css_app_hide>
+      <css_attributes/>
+      <css_removed>0</css_removed>
+      <css_modules/>
+      <css_master_key>root</css_master_key>
+    </css>
+  </hookextras_css>
+  <hookextras_tasks/>
+  <hookextras_database_create/>
+  <hookextras_database_alter/>
+  <hookextras_database_update/>
+  <hookextras_database_insert/>
+</hookexport>

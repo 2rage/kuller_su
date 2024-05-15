@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление прикрепленными файлами</grouptitle>
+		<grouplang>forums_attachments</grouplang>
+		<items>
+			<item>
+				<key>view_attachments</key>
+				<string>Может просматривать и искать файлы?</string>
+			</item>
+			<item>
+				<key>stats_attachments</key>
+				<string>Может просматривать статистику?</string>
+			</item>
+			<item>
+				<key>remove_attachments</key>
+				<string>Может удалять?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление типами прикрепляемых файлов</grouptitle>
+		<grouplang>forums_mimes</grouplang>
+		<items>
+			<item>
+				<key>mime_view</key>
+				<string>Может просматривать?</string>
+			</item>
+			<item>
+				<key>mime_add</key>
+				<string>Может добавлять?</string>
+			</item>
+			<item>
+				<key>mime_edit</key>
+				<string>Может изменять?</string>
+			</item>
+			<item>
+				<key>mime_delete</key>
+				<string>Может удалять?</string>
+			</item>
+			<item>
+				<key>mime_import</key>
+				<string>Может импортировать типы?</string>
+			</item>
+			<item>
+				<key>mime_export</key>
+				<string>Может экспортировать типы?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

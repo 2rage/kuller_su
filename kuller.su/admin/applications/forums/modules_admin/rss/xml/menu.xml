@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>RSS Импорт</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>RSS Импорт</subitemtitle>
+					<subitemlang>rssimports</subitemlang>
+					<subsection>import</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>import_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>RSS Экспорт</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>RSS Экспорт</subitemtitle>
+					<subitemlang>rssexports</subitemlang>
+					<subsection>export</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>export_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

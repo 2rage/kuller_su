@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Управление иконками</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление иконками</subitemtitle>
+					<subitemlang>manage_icons</subitemlang>						
+					<subsection>manage</subsection>
+					<subitemurl>do=view</subitemurl>
+					<subitemrolekey></subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>							
+			</subitems>		
+		</item>					
+	</tabitems>
+</menu>

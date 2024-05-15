@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление статистикой</grouptitle>
+		<grouplang>forums_stats</grouplang>
+		<items>
+			<item>
+				<key>stats_topics</key>
+				<string>Может просматривать отчет о новых темах?</string>
+			</item>
+			<item>
+				<key>stats_registration</key>
+				<string>Может просматривать отчет о новых регистрациях?</string>
+			</item>
+			<item>
+				<key>stats_posts</key>
+				<string>Может просматривать отчет о новых сообщениях?</string>
+			</item>
+			<item>
+				<key>stats_msg</key>
+				<string>Может просматривать отчет о новых личных сообщениях?</string>
+			</item>
+			<item>
+				<key>stats_views</key>
+				<string>Может просматривать отчет о просмотрах тем?</string>
+			</item>			
+		</items>
+	</group>
+</permissions>

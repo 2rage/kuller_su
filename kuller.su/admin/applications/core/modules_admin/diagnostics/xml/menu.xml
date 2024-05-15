@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Обзор Системы</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Обзор Системы</subitemtitle>
+					<subitemlang>diag_overview</subitemlang>
+					<subsection>diagnostics</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey></subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Проверка Пробелов</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Проверка Пробелов</subitemtitle>
+					<subitemlang>whitespace_checker</subitemlang>
+					<subsection>diagnostics</subsection>
+					<subitemurl>do=whitespace</subitemurl>
+					<subitemrolekey>whitespace_checker</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Проверка Ограничений ФС</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Проверка Ограничений ФС</subitemtitle>
+					<subitemlang>permissions_checker</subitemlang>
+					<subsection>diagnostics</subsection>
+					<subitemurl>do=filepermissions</subitemurl>
+					<subitemrolekey>permission_checker</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Проверка Соединений</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Проверка Соединений</subitemtitle>
+					<subitemlang>connection_checker</subitemlang>
+					<subsection>diagnostics</subsection>
+					<subitemurl>do=connections</subitemurl>
+					<subitemrolekey>connection_checker</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Прверка БД</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Проверка БД</subitemtitle>
+					<subitemlang>db_checker</subitemlang>
+					<subsection>diagnostics</subsection>
+					<subitemurl>do=dbchecker</subitemurl>
+					<subitemrolekey>database_checker</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Проверка Индексов БД</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Проверка Индексов БД</subitemtitle>
+					<subitemlang>dbi_checker</subitemlang>
+					<subsection>diagnostics</subsection>
+					<subitemurl>do=dbindex</subitemurl>
+					<subitemrolekey>index_checker</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Тест Email</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Тест Email</subitemtitle>
+					<subitemlang>email_checker</subitemlang>
+					<subsection>diagnostics</subsection>
+					<subitemurl>do=email</subitemurl>
+					<subitemrolekey>email_checker</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

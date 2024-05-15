@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<export>
+  <group>
+    <row>
+      <task_id>1</task_id>
+    
+      <task_title>Отправка скрипта резервного копирования</task_title>
+      <task_file>backup.php</task_file>
+      <task_next_run>1357301760</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>-1</task_hour>
+      <task_minute>-1</task_minute>
+      <task_cronkey>402c70d63693dd4b36a4f8b4bdba332a</task_cronkey>
+      <task_log>0</task_log>
+      <task_description>Отправляет на удаленный сервер скрипт для резервного копирования</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>backup</task_key>
+      <task_safemode>1</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+    <row>
+      <task_id>2</task_id>
+      <task_title>Ежечасная очистка</task_title>
+      <task_file>cleanout.php</task_file>
+      <task_next_run>1357305480</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>-1</task_hour>
+      <task_minute>59</task_minute>
+      <task_cronkey>47ad8d6214f48d7b960854a77dd290fd</task_cronkey>
+      <task_log>1</task_log>
+      <task_description>Удаление старых сессий, регистрационных изображений, результатов поиска</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>cleanout</task_key>
+      <task_safemode>1</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+    <row>
+      <task_id>3</task_id>
+      <task_title>Очистка кеша</task_title>
+      <task_file>contentcache.php</task_file>
+      <task_next_run>1357268400</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>3</task_hour>
+      <task_minute>0</task_minute>
+      <task_cronkey>ec3d38097e056bfcde6801f05c18fc54</task_cronkey>
+      <task_log>1</task_log>
+      <task_description>Удаление старых записей кеша</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>contentcache</task_key>
+      <task_safemode>1</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+    <row>
+      <task_id>4</task_id>
+      <task_title>Архивация</task_title>
+      <task_file>archive.php</task_file>
+      <task_next_run>1357302600</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>-1</task_hour>
+      <task_minute>15</task_minute>
+      <task_cronkey>c39a3034f753a542c42c60ded2e0c855</task_cronkey>
+      <task_log>1</task_log>
+      <task_description>Архивация и восстановление тем из архива</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>core_archiver</task_key>
+      <task_safemode>1</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+    <row>
+      <task_id>5</task_id>
+      <task_title>Генерация Sitemap</task_title>
+      <task_file>sitemapgenerator.php</task_file>
+      <task_next_run>1357305540</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>-1</task_hour>
+      <task_minute>0</task_minute>
+      <task_cronkey>891ca9866c06d57002e894905ac7ba3f</task_cronkey>
+      <task_log>1</task_log>
+      <task_description>Создает карту сайта для поисковых машин.</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>ipseo_sitemap_generator</task_key>
+      <task_safemode>0</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+    <row>
+      <task_id>6</task_id>
+      <task_title>Очиска отметок о прочтении</task_title>
+      <task_file>itemmarkers.php</task_file>
+      <task_next_run>1357257600</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>0</task_hour>
+      <task_minute>0</task_minute>
+      <task_cronkey>3ad4f56e47572cc6e46bf1425129361b</task_cronkey>
+      <task_log>1</task_log>
+      <task_description><![CDATA[Удаление &#39;мертвых&#39; отметок]]></task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>itemmarkers</task_key>
+      <task_safemode>0</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+    <row>
+      <task_id>7</task_id>
+      <task_title>Очистка журналов</task_title>
+      <task_file>logprune.php</task_file>
+      <task_next_run>1359266400</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>27</task_month_day>
+      <task_hour>6</task_hour>
+      <task_minute>0</task_minute>
+      <task_cronkey>6fb30ef66648af066a1e94fe4f84fc57</task_cronkey>
+      <task_log>1</task_log>
+      <task_description>Очистка журналов в соответствии с вашими настройками</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>logprune</task_key>
+      <task_safemode>1</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+    <row>
+      <task_id>8</task_id>
+      <task_title>Очистка кеша Minify</task_title>
+      <task_file>minifycleanup.php</task_file>
+      <task_next_run>1357527600</task_next_run>
+      <task_week_day>1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>3</task_hour>
+      <task_minute>0</task_minute>
+      <task_cronkey>999642fb8d506f51ebdfdaa6c6acfc95</task_cronkey>
+      <task_log>1</task_log>
+      <task_description>Удаление старых файлов, созданных minify</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>minifycleanup</task_key>
+      <task_safemode>1</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+    <row>
+      <task_id>9</task_id>
+      <task_title>Очистка MySQL</task_title>
+      <task_file>mysqlcleanup.php</task_file>
+      <task_next_run>1357303740</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>-1</task_hour>
+      <task_minute>30</task_minute>
+      <task_cronkey>67655107c89acb076ae47ace8dfe01f4</task_cronkey>
+      <task_log>1</task_log>
+      <task_description>Очищает уснувшие mysql-процессы</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>mysqlcleanup</task_key>
+      <task_safemode>1</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+    <row>
+      <task_id>10</task_id>
+      <task_title>Оптимизация таблиц SQL</task_title>
+      <task_file>optimize.php</task_file>
+      <task_next_run>1357272000</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>4</task_hour>
+      <task_minute>0</task_minute>
+      <task_cronkey>abdda6266742d4a6519ce81aaf347635</task_cronkey>
+      <task_log>1</task_log>
+      <task_description>Оптимизация таблиц базы один раз в день</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>optimizetables</task_key>
+      <task_safemode>0</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+    <row>
+      <task_id>11</task_id>
+      <task_title>Получение входящих Email из POP3</task_title>
+      <task_file>pop3email.php</task_file>
+      <task_next_run>1357303860</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>-1</task_hour>
+      <task_minute>30</task_minute>
+      <task_cronkey>569a38decc28ea20f2eea024bb74649e</task_cronkey>
+      <task_log>0</task_log>
+      <task_description>Получение писем из POP3 email аккаунта</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>pop3email</task_key>
+      <task_safemode>0</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+    <row>
+      <task_id>12</task_id>
+      <task_title>Ежедневная перестройка статистики</task_title>
+      <task_file>rebuildstats.php</task_file>
+      <task_next_run>1357257600</task_next_run>
+      <task_week_day>-1</task_week_day>
+      <task_month_day>-1</task_month_day>
+      <task_hour>0</task_hour>
+      <task_minute>0</task_minute>
+      <task_cronkey>3dc0a502b89b8e944d4bedb3d9d4d34e</task_cronkey>
+      <task_log>1</task_log>
+      <task_description>Пересчет статистики форума</task_description>
+      <task_enabled>1</task_enabled>
+      <task_key>rebuildstats</task_key>
+      <task_safemode>1</task_safemode>
+      <task_locked>0</task_locked>
+      <task_application>core</task_application>
+    </row>
+  </group>
+</export>

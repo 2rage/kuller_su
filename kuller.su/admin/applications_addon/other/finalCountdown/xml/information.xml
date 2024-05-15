@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<information>
+  <data>
+    <name><![CDATA[Финальный отсчет времени]]></name>
+    <public_name>Отсчеты времени</public_name>
+    <hide_tab>1</hide_tab>
+    <author>перевод IpbZona.ru</author>
+    <description/>
+    <disabledatinstall>0</disabledatinstall>
+    <global_caches>countdowns</global_caches>
+    <website>http://rawcodes.net</website>
+    <update_check>http://rawcodes.net/hookCheck.php?hook=finalCountdown</update_check>
+    <templategroups>
+        <template match="exact">skin_finalCountdown</template>
+    </templategroups>
+  </data>
+</information>

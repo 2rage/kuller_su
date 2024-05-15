@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Управление Смайликами</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Смайликами</subitemtitle>
+					<subitemlang>emoticons</subitemlang>
+					<subsection>emoticons</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>emoticons_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Управление BB-кодами</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление BB-кодами</subitemtitle>
+					<subitemlang>bbcode</subitemlang>
+					<subsection>bbcode</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>bbcode_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>			
+			</subitems>
+		</item>
+		<item>
+			<title>Управление Media-тагами</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Media-тагами</subitemtitle>
+					<subitemlang>mediatag</subitemlang>
+					<subsection>media</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>media_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>				
+			</subitems>
+		</item>
+		<item>
+			<title>Фильтр Нецензурных Слов</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Фильтр Нецензурных Слов</subitemtitle>
+					<subitemlang>badwords</subitemlang>
+					<subsection>badwords</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>badword_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>				
+			</subitems>
+		</item>
+		<item>
+			<title>Расшифровка Сокращений</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Расшифровка Сокращений</subitemtitle>
+					<subitemlang>acronyms</subitemlang>
+					<subsection>acronyms</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>acronyms_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>				
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

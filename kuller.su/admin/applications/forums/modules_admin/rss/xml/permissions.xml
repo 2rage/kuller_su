@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление RSS</grouptitle>
+		<grouplang>forums_rss</grouplang>
+		<items>
+			<item>
+				<key>export_manage</key>
+				<string>Может изменять/добавлять RSS экспорт?</string>
+			</item>
+			<item>
+				<key>export_delete</key>
+				<string>Может удалять RSS экспорт?</string>
+			</item>
+			<item>
+				<key>import_manage</key>
+				<string>Может изменять/добавлять RSS импорт?</string>
+			</item>
+			<item>
+				<key>import_delete</key>
+				<string>Может удалять RSS импорт?</string>
+			</item>
+			<item>
+				<key>import_remove</key>
+				<string>Может удалять темы импортированные через RSS?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

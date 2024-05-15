@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hookexport>
+  <hookdata>
+    <config>
+      <hook_name>(DP33) Иконки форума</hook_name>
+      <hook_desc>Добавляет и отображает иконки форума.</hook_desc>
+      <hook_author>DawPi/перевод IpbZona.ru</hook_author>
+      <hook_email>biuro@ipslink.pl</hook_email>
+      <hook_website>http://www.ipslink.pl</hook_website>
+      <hook_update_check>http://www.ipslink.pl/checkHook.php?hookKey=dp3_fi</hook_update_check>
+      <hook_requirements><![CDATA[a:3:{s:21:"required_applications";a:1:{s:10:"forumicons";a:3:{s:8:"app_name";s:18:"(DP33) Forum Icons";s:11:"min_version";i:2000;s:11:"max_version";i:0;}}s:20:"hook_php_version_min";s:1:"0";s:20:"hook_php_version_max";s:1:"0";}]]></hook_requirements>
+      <hook_version_human>2.0.1</hook_version_human>
+      <hook_version_long>2010</hook_version_long>
+      <hook_extra_data/>
+      <hook_key>dp3_fi</hook_key>
+      <hook_global_caches>fi_icons</hook_global_caches>
+    </config>
+  </hookdata>
+  <hookfiles>
+    <file>
+      <hook_file_real>dp3_fi_boardsClassActionOverloader.php</hook_file_real>
+      <hook_type>commandHooks</hook_type>
+      <hook_classname>dp3_fi_boardsClassActionOverloader</hook_classname>
+      <hook_data><![CDATA[a:8:{s:12:"dataLocation";s:0:"";s:14:"libApplication";s:0:"";s:15:"classToOverload";s:27:"public_forums_forums_boards";s:9:"skinGroup";N;s:12:"skinFunction";N;s:4:"type";N;s:2:"id";N;s:8:"position";N;}]]></hook_data>
+      <hooks_source><![CDATA[<?php
+      
+//-----------------------------------------------
+// (DP33) Forum Icons
+//-----------------------------------------------
+//-----------------------------------------------
+// Action Overloader
+//-----------------------------------------------
+// Author: DawPi
+// Site: http://www.ipslink.pl
+// Written on: 03 / 08 / 2011
+//-----------------------------------------------
+// Copyright (C) 2011 DawPi
+// All Rights Reserved
+//-----------------------------------------------     
+
+class dp3_fi_boardsClassActionOverloader extends (~extends~)	
+{
+	/**
+	 * Builds an array of category data for output
+	 *
+	 * @return	array
+	 */
+	public function processAllCategories()
+	{		
+		/* Run parent */
+		
+		$dataToReturn = parent::processAllCategories();
+		
+		/* Load library */
+		
+		$classToLoad = IPSLib::loadLibrary( IPSLib::getAppDir( 'forumicons' ) . '/sources/classes/library.php', 'fiLibrary', 'forumicons' );
+		$this->registry->setClass( 'fiLibrary', new $classToLoad( $this->registry ) );	
+		
+		/* System is enabled? */
+		
+		if( $this->settings['dp3_fi_enable'] )
+		{
+			if( count( $dataToReturn ) )
+			{
+				foreach( $dataToReturn as $_id => $_data )
+				{					
+					foreach( $_data['forum_data'] as $forum_id => $forum_data )
+					{
+						/* Do we have icon? */
+
+						if( $this->caches['fi_icons'][ $forum_data['id'] ]['i_location'] && $this->caches['fi_icons'][ $forum_data['id'] ]['i_enabled'] )
+						{
+							if( $this->settings['dp3_fi_mode'] == 'nextto' )
+							{
+								$dataToReturn[ $_id ]['forum_data'][ $forum_id ]['_name'] = $this->registry->fiLibrary->makeForumIcon( $this->caches['fi_icons'][ $forum_data['id'] ]['i_location'] ) . ' ' . $forum_data['name'];
+							}
+							else
+							{
+								$dataToReturn[ $_id ]['forum_data'][ $forum_id ]['icon'] 		= $this->registry->fiLibrary->makeForumIcon( $this->caches['fi_icons'][ $forum_data['id'] ]['i_location'], !$forum_data['_has_unread'], true );
+								$dataToReturn[ $_id ]['forum_data'][ $forum_id ]['icon_read'] 	= $this->registry->fiLibrary->makeForumIcon( $this->caches['fi_icons'][ $forum_data['id'] ]['i_location'], true, true );		
+							}
+								
+						}
+					}				
+				}
+			}
+		}
+
+		/* Return */
+		
+		return $dataToReturn;
+	}	
+} // End of class]]></hooks_source>
+    </file>
+    <file>
+      <hook_file_real>dp3_fi_forumsClassActionOverloader.php</hook_file_real>
+      <hook_type>commandHooks</hook_type>
+      <hook_classname>dp3_fi_forumsClassActionOverloader</hook_classname>
+      <hook_data><![CDATA[a:8:{s:12:"dataLocation";s:0:"";s:14:"libApplication";s:0:"";s:15:"classToOverload";s:27:"public_forums_forums_forums";s:9:"skinGroup";N;s:12:"skinFunction";N;s:4:"type";N;s:2:"id";N;s:8:"position";N;}]]></hook_data>
+      <hooks_source><![CDATA[<?php
+      
+//-----------------------------------------------
+// (DP33) Forum Icons
+//-----------------------------------------------
+//-----------------------------------------------
+// Action Overloader
+//-----------------------------------------------
+// Author: DawPi
+// Site: http://www.ipslink.pl
+// Written on: 03 / 08 / 2011
+//-----------------------------------------------
+// Copyright (C) 2011 DawPi
+// All Rights Reserved
+//-----------------------------------------------    
+
+class dp3_fi_forumsClassActionOverloader extends (~extends~)
+{	
+	/**
+	 * Builds output array for sub forums
+	 *
+	 * @return	array
+	 */
+	public function showSubForums()
+	{		
+		/* Run parent */
+		
+		$dataToReturn = parent::showSubForums();
+	
+		/* Load library */
+		
+		$classToLoad = IPSLib::loadLibrary( IPSLib::getAppDir( 'forumicons' ) . '/sources/classes/library.php', 'fiLibrary', 'forumicons' );
+		$this->registry->setClass( 'fiLibrary', new $classToLoad( $this->registry ) );	
+		
+		/* System is enabled? */
+		
+		if( $this->settings['dp3_fi_enable'] )
+		{
+			if( count( $dataToReturn ) )
+			{
+
+				foreach( $dataToReturn as $_id => $_data )
+				{					
+					foreach( $_data['forum_data'] as $forum_id => $forum_data )
+					{
+						/* Do we have icon? */
+
+						if( $this->caches['fi_icons'][ $forum_data['id'] ]['i_location'] && $this->caches['fi_icons'][ $forum_data['id'] ]['i_enabled'] )
+						{
+							if( $this->settings['dp3_fi_mode'] == 'nextto' )
+							{
+								$dataToReturn[ $_id ]['forum_data'][ $forum_id ]['_name'] = $this->registry->fiLibrary->makeForumIcon( $this->caches['fi_icons'][ $forum_data['id'] ]['i_location'] ) . ' ' . $forum_data['name'];
+							}
+							else
+							{
+								$dataToReturn[ $_id ]['forum_data'][ $forum_id ]['icon'] 		= $this->registry->fiLibrary->makeForumIcon( $this->caches['fi_icons'][ $forum_data['id'] ]['i_location'], !$forum_data['_has_unread'], true );
+								$dataToReturn[ $_id ]['forum_data'][ $forum_id ]['icon_read'] 	= $this->registry->fiLibrary->makeForumIcon( $this->caches['fi_icons'][ $forum_data['id'] ]['i_location'], true, true );	
+							}
+								
+						}
+					}				
+				}
+			}
+		}
+
+		/* Return */
+		
+		return $dataToReturn;
+	}	
+} // End of class]]></hooks_source>
+    </file>
+  </hookfiles>
+  <hookextras_settings/>
+  <hookextras_language/>
+  <hookextras_modules/>
+  <hookextras_help/>
+  <hookextras_templates/>
+  <hookextras_css/>
+  <hookextras_tasks/>
+  <hookextras_database_create/>
+  <hookextras_database_alter/>
+  <hookextras_database_update/>
+  <hookextras_database_insert/>
+</hookexport>

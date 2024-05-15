@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<moduleexport>
+  <modulegroup>
+    <module>
+      <sys_module_title>Список пользовтелей</sys_module_title>
+      <sys_module_application>members</sys_module_application>
+      <sys_module_key>list</sys_module_key>
+      <sys_module_description>Отображает список пользователей</sys_module_description>
+      <sys_module_version>1.0.0</sys_module_version>
+      <sys_module_protected>1</sys_module_protected>
+      <sys_module_visible>1</sys_module_visible>
+      <sys_module_position>0</sys_module_position>
+      <sys_module_admin>0</sys_module_admin>
+    </module>
+    <module>
+      <sys_module_title>Профиль</sys_module_title>
+      <sys_module_application>members</sys_module_application>
+      <sys_module_key>profile</sys_module_key>
+      <sys_module_description>Просмотр профилей пользователей</sys_module_description>
+      <sys_module_version>1.0.0</sys_module_version>
+      <sys_module_protected>1</sys_module_protected>
+      <sys_module_visible>1</sys_module_visible>
+      <sys_module_position>0</sys_module_position>
+      <sys_module_admin>0</sys_module_admin>
+    </module>
+    <module>
+      <sys_module_title>Он-лайн лист</sys_module_title>
+      <sys_module_application>members</sys_module_application>
+      <sys_module_key>online</sys_module_key>
+      <sys_module_description>Отображает список пользователей он-лайн</sys_module_description>
+      <sys_module_version>1.0.0</sys_module_version>
+      <sys_module_protected>1</sys_module_protected>
+      <sys_module_visible>1</sys_module_visible>
+      <sys_module_position>0</sys_module_position>
+      <sys_module_admin>0</sys_module_admin>
+    </module>
+    <module>
+      <sys_module_title>Личные сообщения</sys_module_title>
+      <sys_module_application>members</sys_module_application>
+      <sys_module_key>messaging</sys_module_key>
+      <sys_module_description>Функции Личных Сообщений</sys_module_description>
+      <sys_module_version>1.0.0</sys_module_version>
+      <sys_module_protected>1</sys_module_protected>
+      <sys_module_visible>1</sys_module_visible>
+      <sys_module_position>0</sys_module_position>
+      <sys_module_admin>0</sys_module_admin>
+    </module>
+    <module>
+      <sys_module_title>Пользователи</sys_module_title>
+      <sys_module_application>members</sys_module_application>
+      <sys_module_key>members</sys_module_key>
+      <sys_module_description>Управление пользователями</sys_module_description>
+      <sys_module_version>1.0.0</sys_module_version>
+      <sys_module_protected>1</sys_module_protected>
+      <sys_module_visible>1</sys_module_visible>
+      <sys_module_position>1</sys_module_position>
+      <sys_module_admin>1</sys_module_admin>
+    </module>
+    <module>
+      <sys_module_title>Группы Пользователей</sys_module_title>
+      <sys_module_application>members</sys_module_application>
+      <sys_module_key>groups</sys_module_key>
+      <sys_module_description>Управление группами пользователей</sys_module_description>
+      <sys_module_version>1.0.0</sys_module_version>
+      <sys_module_protected>1</sys_module_protected>
+      <sys_module_visible>1</sys_module_visible>
+      <sys_module_position>2</sys_module_position>
+      <sys_module_admin>1</sys_module_admin>
+    </module>
+    <module>
+      <sys_module_title>Дополнительные поля профиля</sys_module_title>
+      <sys_module_application>members</sys_module_application>
+      <sys_module_key>cfields</sys_module_key>
+      <sys_module_description></sys_module_description>
+      <sys_module_version>1.0</sys_module_version>
+      <sys_module_protected>1</sys_module_protected>
+      <sys_module_visible>1</sys_module_visible>
+      <sys_module_position>3</sys_module_position>
+      <sys_module_admin>1</sys_module_admin>
+    </module>
+    <module>
+      <sys_module_title>Предупреждения</sys_module_title>
+      <sys_module_application>members</sys_module_application>
+      <sys_module_key>warnings</sys_module_key>
+      <sys_module_description/>
+      <sys_module_version>3.2</sys_module_version>
+      <sys_module_protected>0</sys_module_protected>
+      <sys_module_visible>1</sys_module_visible>
+      <sys_module_position>4</sys_module_position>
+      <sys_module_admin>1</sys_module_admin>
+    </module>
+    <module>
+      <sys_module_title>Рассылки</sys_module_title>
+      <sys_module_application>members</sys_module_application>
+      <sys_module_key>bulkmail</sys_module_key>
+      <sys_module_description>Управление рассылками сообщений</sys_module_description>
+      <sys_module_version>1.0.0</sys_module_version>
+      <sys_module_protected>1</sys_module_protected>
+      <sys_module_visible>1</sys_module_visible>
+      <sys_module_position>5</sys_module_position>
+      <sys_module_admin>1</sys_module_admin>
+    </module>
+    <module>
+      <sys_module_title>Ограничения доступа в АЦ</sys_module_title>
+      <sys_module_application>members</sys_module_application>
+      <sys_module_key>restrictions</sys_module_key>
+      <sys_module_description>Позволяет настроить права доступа в админцентр для пользователей и групп</sys_module_description>
+      <sys_module_version>1.0.0</sys_module_version>
+      <sys_module_protected>0</sys_module_protected>
+      <sys_module_visible>1</sys_module_visible>
+      <sys_module_position>6</sys_module_position>
+      <sys_module_admin>1</sys_module_admin>
+    </module>
+  </modulegroup>
+</moduleexport>

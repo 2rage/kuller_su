@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Финальный отсчет</grouptitle>
+		<items>
+			<item>
+				<key>im_fc_global</key>
+				<string>Можете посмотреть на странице обзора?</string>
+			</item>
+			<item>
+				<key>im_fc_canAdd</key>
+				<string>Может добавить новый отсчет?</string>
+			</item>
+			<item>
+				<key>im_fc_canEdit</key>
+				<string>Может редактировать уже существующие отсчет?</string>
+			</item>
+			<item>
+				<key>im_fc_canDelete</key>
+				<string>Может удалять отсчет?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

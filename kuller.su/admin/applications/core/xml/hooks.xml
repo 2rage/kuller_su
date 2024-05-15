@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hooks>
+	<hook>
+		<file>vkontakte.xml</file>
+		<enabled>1</enabled>
+	</hook>
+	<hook>
+		<file>adcodesidebar.xml</file>
+		<enabled>1</enabled>
+	</hook>
+</hooks>

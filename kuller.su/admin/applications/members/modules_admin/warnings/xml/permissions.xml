@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Причины</grouptitle>
+		<grouplang>warn_reasons</grouplang>
+		<items>
+			<item>
+				<key>reasons_view</key>
+				<string>Может просматривать?</string>
+			</item>
+			<item>
+				<key>reasons_edit</key>
+				<string>Может изменять?</string>
+			</item>
+			<item>
+				<key>reasons_add</key>
+				<string>Может добавлять?</string>
+			</item>
+			<item>
+				<key>reasons_delete</key>
+				<string>Может удалять?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Действия</grouptitle>
+		<grouplang>warn_actions</grouplang>
+		<items>
+			<item>
+				<key>actions_view</key>
+				<string>Может просматривать?</string>
+			</item>
+			<item>
+				<key>actions_edit</key>
+				<string>Может изменять?</string>
+			</item>
+			<item>
+				<key>actions_add</key>
+				<string>Может добавлять?</string>
+			</item>
+			<item>
+				<key>actions_delete</key>
+				<string>Может удалять?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

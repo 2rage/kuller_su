@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<information>
+  <data>
+    <name>(DP32) Иконки форума</name>
+    <public_name/>
+    <hide_tab>1</hide_tab>
+    <author>DawPi/перевод IpbZona.ru</author>
+    <description>Отображение иконок форума.</description>
+    <disabledatinstall>0</disabledatinstall>
+    <global_caches>fi_icons</global_caches>
+    <website>http://ipslink.pl</website>
+    <update_check>http://www.ipslink.pl/checkHook.php?appKey=forumicons</update_check>
+    <templategroups/>
+  </data>
+</information>

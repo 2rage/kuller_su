@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление пользователями</grouptitle>
+		<grouplang>members_members</grouplang>
+		<items>
+			<item>
+				<key>member_add</key>
+				<string>Может добавлять?</string>
+			</item>
+			<item>
+				<key>member_add_admin</key>
+				<string>Может добавлять администраторов?</string>
+			</item>
+			<item>
+				<key>member_edit</key>
+				<string>Может изменять?</string>
+			</item>
+			<item>
+				<key>member_edit_admin</key>
+				<string>Может изменять администраторов?</string>
+			</item>
+			<item>
+				<key>member_delete</key>
+				<string>Может удалять?</string>
+			</item>
+			<item>
+				<key>member_delete_admin</key>
+				<string>Может удалять администраторов?</string>
+			</item>
+			<item>
+				<key>member_login</key>
+				<string>Can log in as members?</string>
+			</item>
+			<item>
+				<key>members_merge</key>
+				<string>Может объединять?</string>
+			</item>
+			<item>
+				<key>member_suspend</key>
+				<string>Может блокировать?</string>
+			</item>
+			<item>
+				<key>member_suspend_admin</key>
+				<string>Может блокировать администраторов?</string>
+			</item>
+			<item>
+				<key>member_prune</key>
+				<string>Может удалять?</string>
+			</item>
+			<item>
+				<key>member_prune_admin</key>
+				<string>Может удалять администраторов?</string>
+			</item>
+			<item>
+				<key>member_move</key>
+				<string>Может переносить из группы в группу?</string>
+			</item>
+			<item>
+				<key>member_move_admin1</key>
+				<string>Может переносить администраторов в другие группы?</string>
+			</item>
+			<item>
+				<key>member_move_admin2</key>
+				<string>Может переносить в группу администраторов?</string>
+			</item>
+			<item>
+				<key>member_ban</key>
+				<string>Может банить?</string>
+			</item>
+			<item>
+				<key>member_ban_admin</key>
+				<string>Может банить администраторов?</string>
+			</item>
+			<item>
+				<key>member_photo</key>
+				<string>Может изменять фотографии пользователям?</string>
+			</item>
+			<item>
+				<key>member_photo_admin</key>
+				<string>Может изменять фотографии администраторам?</string>
+			</item>
+			<item>
+				<key>membertools_validating</key>
+				<string>Может управлять ожидающими активации?</string>
+			</item>
+			<item>
+				<key>membertools_locked</key>
+				<string>Может управлять заблокированными?</string>
+			</item>
+			<item>
+				<key>membertools_banned</key>
+				<string>Может управлять забаненными?</string>
+			</item>
+			<item>
+				<key>membertools_spam</key>
+				<string>Может управлять спам-пользователями?</string>
+			</item>
+			<item>
+				<key>membertools_incomplete</key>
+				<string>Может управлять не завершившими регистрацию?</string>
+			</item>
+			<item>
+				<key>membertools_delete_pms</key>
+				<string>Может удалять личные сообщения?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Инструменты</grouptitle>
+		<grouplang>members_tools</grouplang>
+		<items>
+			<item>
+				<key>membertools_ip</key>
+				<string>Может использовать инструменты работы с IP-адресами?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Звания</grouptitle>
+		<grouplang>members_ranks</grouplang>
+		<items>
+			<item>
+				<key>ranks_add</key>
+				<string>Может просматривать и добавлять?</string>
+			</item>
+			<item>
+				<key>ranks_edit</key>
+				<string>Может изменять?</string>
+			</item>
+			<item>
+				<key>ranks_delete</key>
+				<string>Может удалять?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Бан-фильтр</grouptitle>
+		<grouplang>members_banfilters</grouplang>
+		<items>
+			<item>
+				<key>ban_manage</key>
+				<string>Может управлять фильтром?</string>
+			</item>
+			<item>
+				<key>ban_remove</key>
+				<string>Может удалять правила?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Репутация</grouptitle>
+		<grouplang>members_reputation</grouplang>
+		<items>
+			<item>
+				<key>reps_manage</key>
+				<string>Может управлять?</string>
+			</item>
+			<item>
+				<key>reps_delete</key>
+				<string>Может удалять уровни репутации?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Уведомления</grouptitle>
+		<grouplang>members_notifications</grouplang>
+		<items>
+			<item>
+				<key>configure_notifications</key>
+				<string>Может настраивать значения по-умолчанию для уведомлений?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

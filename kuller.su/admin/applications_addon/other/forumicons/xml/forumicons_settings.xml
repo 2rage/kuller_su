@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settingexport>
+  <settinggroup>
+    <setting>
+      <conf_is_title>1</conf_is_title>
+      <conf_title_keyword>dp3_fi</conf_title_keyword>
+      <conf_title_title>(DP33) Иконки форума</conf_title_title>
+      <conf_title_desc>Настройки для мода</conf_title_desc>
+      <conf_title_tab>IZ_mod</conf_title_tab>
+      <conf_title_app>forumicons</conf_title_app>
+      <conf_title_noshow>1</conf_title_noshow>
+    </setting>
+    <setting>
+      <conf_title>Включить?</conf_title>
+      <conf_description/>
+      <conf_group>79</conf_group>
+      <conf_type>yes_no</conf_type>
+      <conf_key>dp3_fi_enable</conf_key>
+      <conf_default>0</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>1</conf_position>
+      <conf_start_group>Настройки</conf_start_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>dp3_fi</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Отображение</conf_title>
+      <conf_description><![CDATA[Где вы хотите, чтобы отображались иконки??<br /><br />
+После названия форума (не требует редактирования скина форума).<br />
+Вместо иконки-индикатора (требуются изменения скина - основано на ajax технологии).]]></conf_description>
+      <conf_group>79</conf_group>
+      <conf_type>dropdown</conf_type>
+      <conf_key>dp3_fi_mode</conf_key>
+      <conf_default>nextto</conf_default>
+      <conf_extra>nextto=После названия форума&#13;
+replace=Вместо иконки-индикатора</conf_extra>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>2</conf_position>
+      <conf_start_group/>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>dp3_fi</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Допустимые расширения</conf_title>
+      <conf_description/>
+      <conf_group>79</conf_group>
+      <conf_type>input</conf_type>
+      <conf_key>dp3_fi_allowed_ext</conf_key>
+      <conf_default>jpg,jpeg,png,gif</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>3</conf_position>
+      <conf_start_group>Настройки иконок</conf_start_group>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>dp3_fi</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Максимальный размер файла</conf_title>
+      <conf_description>Максимальный размер файла загружаемой иконки, в Килобайтах.</conf_description>
+      <conf_group>79</conf_group>
+      <conf_type>input</conf_type>
+      <conf_key>dp3_fi_max_filesize</conf_key>
+      <conf_default>50</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>4</conf_position>
+      <conf_start_group/>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>dp3_fi</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Максимальное разрешение иконки</conf_title>
+      <conf_description>Цстановки максимального разрешениея загружаемой иконки, если иконка большего разрешения она не будет отображаться. Размеры указывать в формате: Ширина x Высота.</conf_description>
+      <conf_group>79</conf_group>
+      <conf_type>input</conf_type>
+      <conf_key>dp3_fi_max_dims</conf_key>
+      <conf_default>35x35</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>5</conf_position>
+      <conf_start_group/>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>dp3_fi</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+    <setting>
+      <conf_title>Папка хранения</conf_title>
+      <conf_description>Укажите папку в которой будут храниться загруженные иконки (указанная папки должна быть в директории uploads/).</conf_description>
+      <conf_group>79</conf_group>
+      <conf_type>input</conf_type>
+      <conf_key>dp3_fi_dir</conf_key>
+      <conf_default>forumicons/</conf_default>
+      <conf_extra/>
+      <conf_evalphp/>
+      <conf_protected>1</conf_protected>
+      <conf_position>6</conf_position>
+      <conf_start_group/>
+      <conf_add_cache>1</conf_add_cache>
+      <conf_keywords/>
+      <conf_title_keyword>dp3_fi</conf_title_keyword>
+      <conf_is_title>0</conf_is_title>
+    </setting>
+  </settinggroup>
+</settingexport>

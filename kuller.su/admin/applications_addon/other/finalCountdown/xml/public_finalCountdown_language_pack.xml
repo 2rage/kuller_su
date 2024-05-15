@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languageexport>
+  <languagegroup>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>public_core</word_pack>
+      <word_key>finalCountdown_countdownsLoading</word_key>
+      <word_default><![CDATA[<em>Ожидание отсчетов</em>]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>public_core</word_pack>
+      <word_key>finalCountdown_sidebarHeading</word_key>
+      <word_default>Отсчеты времени</word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>public_core</word_pack>
+      <word_key>finalCountdown_sharedCountdownLoading</word_key>
+      <word_default><![CDATA[<em>Ожидание</em>]]></word_default>
+    </lang>
+    <lang>
+      <word_app>finalCountdown</word_app>
+      <word_pack>public_core</word_pack>
+      <word_key>finalCountdown_sharedMediaTab</word_key>
+      <word_default>Отсчеты времени</word_default>
+    </lang>
+  </languagegroup>
+</languageexport>

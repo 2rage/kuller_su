@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Изображения</grouptitle>
+		<grouplang>core_templates</grouplang>
+		<items>
+			<item>
+				<key>app_images</key>
+				<string>Может управлять изображениями?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

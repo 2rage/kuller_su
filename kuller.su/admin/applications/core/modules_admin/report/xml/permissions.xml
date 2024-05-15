@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Плагины системы жалоб</grouptitle>
+		<grouplang>core_reports</grouplang>
+		<items>
+			<item>
+				<key>plugins_manage</key>
+				<string>Может добавлять/изменять плагины?</string>
+			</item>
+			<item>
+				<key>plugins_remove</key>
+				<string>Может удалять плагины?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление статусами жалоб</grouptitle>
+		<grouplang>core_statsev</grouplang>
+		<items>
+			<item>
+				<key>sands_manage</key>
+				<string>Может добавлять/изменять статусы жалоб?</string>
+			</item>
+			<item>
+				<key>sands_remove</key>
+				<string>Может удалять статусы?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

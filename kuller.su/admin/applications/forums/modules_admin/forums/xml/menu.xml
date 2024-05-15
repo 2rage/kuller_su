@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Управление Форумами</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Форумами</subitemtitle>
+					<subitemlang>forums</subitemlang>
+					<subsection>forums</subsection>
+					<subitemurl>do=forums_overview</subitemurl>
+					<subitemrolekey></subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Мульти-модерация Тем</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Мульти-модерация Тем</subitemtitle>
+					<subitemlang>multimod</subitemlang>
+					<subsection>multimods</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>mmod_view</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>				
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

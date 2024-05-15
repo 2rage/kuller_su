@@ -1,0 +1,27 @@
+﻿body
+{
+	background-image:url('img/bg.jpg');
+}
+
+.mainholder
+{
+	width:900px;height:500px;margin:auto;
+	background-color:white;
+}
+
+.mainleft
+{
+	width:900px;height:510px;float:left;
+	padding:5px 5px 5px 5px;
+}
+
+.mainright
+{
+	width:180px;height:490px;float:right;background-color:#F0F0F0;
+	padding:5px 5px 5px 5px;
+}
+
+.footer
+{
+	width:900px;height:250px;font-size:12px;margin:auto;background-image:url('img/footer.png');color:white;text-align:center;
+}

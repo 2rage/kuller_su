@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Управление Стилями</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Стилями</subitemtitle>
+					<subitemlang>skins_manage</subitemlang>
+					<subsection>skinsets</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>settemplates_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Управление Мета-тэгами</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Мета-тэгами</subitemtitle>
+					<subitemlang>skins_meta</subitemlang>
+					<subsection>meta</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>settemplates_meta</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Управление Системными Шаблонами</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Системными Шаблонами</subitemtitle>
+					<subitemlang>skins_systemtemplates</subitemlang>
+					<subsection>systemTemplates</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>systemtemplates</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Инструменты Стилей</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Инструменты Стилей</subitemtitle>
+					<subitemlang>skins_tools</subitemlang>
+					<subsection>tools</subsection>
+					<subitemurl>do=splash</subitemurl>
+					<subitemrolekey>template_tools</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Слияние Стилей</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Слияние Стилей</subitemtitle>
+					<subitemlang>skins_merge</subitemlang>
+					<subsection>skindiff</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>skindiff_reports</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Поиск и Замена</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Поиск и Замена</subitemtitle>
+					<subitemlang>skins_sar</subitemlang>
+					<subsection>searchandreplace</subsection>
+					<subitemurl>do=showform</subitemurl>
+					<subitemrolekey>templates_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Смена Логотипа</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Смена Логотипа</subitemtitle>
+					<subitemlang>skins_logo</subitemlang>
+					<subsection>easylogo</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>easy_logo</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Импорт / Экспорт</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Импорт / Экспорт</subitemtitle>
+					<subitemlang>skins_ie</subitemlang>
+					<subsection>importexport</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>settemplates_export</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Внешнее Редактирование Шаблонов и CSS</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Внешнее Редактирование Шаблонов и CSS</subitemtitle>
+					<subitemlang>skins_external</subitemlang>
+					<subsection>external</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>settemplates_external</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<languageexport>
+  <languagegroup>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>forumicons_overview</word_key>
+      <word_default>Обзор иконок</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>update_cache</word_key>
+      <word_default>Обновить КЭШ</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>forums</word_key>
+      <word_default>Форумы</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>edit_settings</word_key>
+      <word_default>Редактировать форум</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>noforums</word_key>
+      <word_default><![CDATA[Нет ни одного форума.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>tools_list</word_key>
+      <word_default>Список инструментов</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>convert_tool_title</word_key>
+      <word_default>Конвертировать старые настройки</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>convert_tool_title_desc</word_key>
+      <word_default>При помощи этой утилиты вы можете перевести старые настройки на новую версию мода.</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>run_tool</word_key>
+      <word_default>Запуск утилиты</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>convert_tool_run</word_key>
+      <word_default>Старые настройки успешно конвертированы.</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>re_percycle</word_key>
+      <word_default>За цикл</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>success_cache_updated</word_key>
+      <word_default>КЭШ иконок был успешно обновлен.</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>edit_item_button</word_key>
+      <word_default>Редактировать форум</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>editing_item</word_key>
+      <word_default>Редактирование иконки форума</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>error_no_forum_id</word_key>
+      <word_default><![CDATA[Невозможно найти форум, пожалуйста, попробуйте позже.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>oror</word_key>
+      <word_default><![CDATA[<strong>...или...</strong>]]></word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>cancel_operation</word_key>
+      <word_default>Отмена</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>redirectedit_item</word_key>
+      <word_default>Иконка форума была успешно изменена.</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>main_informations</word_key>
+      <word_default>Главная информация</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>i_enabled</word_key>
+      <word_default>Включено</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>i_enabled_desc</word_key>
+      <word_default>Вы действительно хотите показывать нестандартные иконки для данного форума?</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>icon</word_key>
+      <word_default>Иконка</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>icon_desc</word_key>
+      <word_default>Выберите иконку и загрузите её.</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>error_number__upload_failed_possible_xss</word_key>
+      <word_default>Вероятная XSS атак!</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>error_number__upload_no_choosen_file</word_key>
+      <word_default><![CDATA[Вы не указали файл для загрузки.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>error_number__invalid_file_extension</word_key>
+      <word_default>Неверное расширение файла.</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>error_number__upload_to_big</word_key>
+      <word_default>Загружаемый файл слишком велик.</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>error_number__upload_failed_cant_move</word_key>
+      <word_default><![CDATA[Невозможно переместить файл.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>error_number__upload_failed_no_upload</word_key>
+      <word_default>Загрузка провалена, попробуйте позже.</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>current_image</word_key>
+      <word_default>Текущая иконка</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>rebuild_process_f</word_key>
+      <word_default>Изменяемый форум %s </word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>re_rebuildcomp</word_key>
+      <word_default><![CDATA[<strong>Перестройка завершена</strong><br /> ]]></word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>re_thisgoeshere</word_key>
+      <word_default><![CDATA[<strong>До %s изменено, продолжаем...</strong>]]></word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>delete_icon</word_key>
+      <word_default>Удалить иконку</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>success_icon_deleted</word_key>
+      <word_default>Иконка успешно удалена.</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_forumicons</word_pack>
+      <word_key>error_no_icon_field</word_key>
+      <word_default><![CDATA[Нет поля для 'иконок' Этот инструмент не может быть использован.]]></word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_menulang</word_pack>
+      <word_key>menu__manage_settings</word_key>
+      <word_default>Управление настройками</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_menulang</word_pack>
+      <word_key>menu__manage_icons</word_key>
+      <word_default>Управление иконками</word_default>
+    </lang>
+    <lang>
+      <word_app>forumicons</word_app>
+      <word_pack>admin_menulang</word_pack>
+      <word_key>tools</word_key>
+      <word_default>Инструменты</word_default>
+    </lang>
+  </languagegroup>
+</languageexport>

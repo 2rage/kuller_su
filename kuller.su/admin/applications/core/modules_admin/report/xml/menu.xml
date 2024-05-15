@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Управление Плагинами</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Плагинами</subitemtitle>
+					<subitemlang>reports_plugin</subitemlang>
+					<subsection>reports</subsection>
+					<subitemurl>do=plugin</subitemurl>
+					<subitemrolekey>plugins_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Статус и Приоритеты Жалоб</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Статус и Приоритеты Жалоб</subitemtitle>
+					<subitemlang>reports_ssl</subitemlang>
+					<subsection>reports</subsection>
+					<subitemurl>do=status</subitemurl>
+					<subitemrolekey>sands_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

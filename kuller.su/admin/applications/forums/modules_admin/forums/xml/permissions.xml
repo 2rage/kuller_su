@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление форумами</grouptitle>
+		<grouplang>forums_forums</grouplang>
+		<items>
+			<item>
+				<key>forums_add</key>
+				<string>Может добавлять форумы?</string>
+			</item>
+			<item>
+				<key>forums_edit</key>
+				<string>Может изменять форумы?</string>
+			</item>
+			<item>
+				<key>forums_delete</key>
+				<string>Может удалять форумы?</string>
+			</item>
+			<item>
+				<key>forums_reorder</key>
+				<string>Может изменять порядок вывода форумов?</string>
+			</item>
+			<item>
+				<key>forums_permissions</key>
+				<string>Может редактировать права доступа к форумам?</string>
+			</item>
+			<item>
+				<key>forums_empty</key>
+				<string>Может очищать форумы?</string>
+			</item>
+			<item>
+				<key>forums_rules</key>
+				<string>Может редактировать правила форумов?</string>
+			</item>
+			<item>
+				<key>forums_skins</key>
+				<string>Может изменять стиль конкретного форума?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление модераторами</grouptitle>
+		<grouplang>forums_moderators</grouplang>
+		<items>
+			<item>
+				<key>mods_add</key>
+				<string>Может добавлять модераторов?</string>
+			</item>
+			<item>
+				<key>mods_edit</key>
+				<string>Может редактировать модераторов?</string>
+			</item>
+			<item>
+				<key>mods_delete</key>
+				<string>Может удалять модераторов?</string>
+			</item>
+			<item>
+				<key>mods_view</key>
+				<string>Может просматривать модераторов?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление мульти-модерацией</grouptitle>
+		<grouplang>forums_multimods</grouplang>
+		<items>
+			<item>
+				<key>mmod_add</key>
+				<string>Может добавлять новые мульти-модерации?</string>
+			</item>
+			<item>
+				<key>mmod_edit</key>
+				<string>Может изменять существующие мульти-модерации?</string>
+			</item>
+			<item>
+				<key>mmod_delete</key>
+				<string>Может удалять мульти-модерации?</string>
+			</item>
+			<item>
+				<key>mmod_view</key>
+				<string>Может просматривать мульти-модерации?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

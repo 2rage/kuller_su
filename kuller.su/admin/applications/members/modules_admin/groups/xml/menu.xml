@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Управление Группами</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Группами</subitemtitle>
+					<subitemlang>manage_groups</subitemlang>
+					<subsection>groups</subsection>
+					<subitemurl>do=groups_overview</subitemurl>
+					<subitemrolekey></subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Управление Правами Доступа</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Правами Доступа</subitemtitle>
+					<subitemlang>manage_perms</subitemlang>
+					<subsection>permissions</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>perms_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>		
+	</tabitems>
+</menu>

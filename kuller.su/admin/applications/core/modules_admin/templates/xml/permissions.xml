@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление стилями</grouptitle>
+		<grouplang>core_templates</grouplang>
+		<items>
+			<item>
+				<key>settemplates_manage</key>
+				<string>Может просматривать и управлять стилями?</string>
+			</item>
+			<item>
+				<key>settemplates_delete</key>
+				<string>Может удалять стили?</string>
+			</item>
+			<item>
+				<key>templates_manage</key>
+				<string>Может добавлять/изменять шаблоны?</string>
+			</item>
+			<item>
+				<key>templates_delete</key>
+				<string>Может сбрасывать изменения или полностью удалять шаблоны?</string>
+			</item>
+			<item>
+				<key>css_manage</key>
+				<string>Может изменять/добавлять CSS?</string>
+			</item>
+			<item>
+				<key>css_delete</key>
+				<string>Может сбрасывать изменения или полностью удалять CSS?</string>
+			</item>
+			<item>
+				<key>replacements_manage</key>
+				<string>Может добавлять/изменять макросы?</string>
+			</item>
+			<item>
+				<key>replacements_delete</key>
+				<string>Может сбрасывать изменения или полностью удалять макросы?</string>
+			</item>
+			<item>
+				<key>settemplates_export</key>
+				<string>Может экспортировать стили?</string>
+			</item>
+			<item>
+				<key>settemplates_meta</key>
+				<string>Может управлять мета-тэгами?</string>
+			</item>
+			<item>
+				<key>systemtemplates</key>
+				<string>Может управлять системными шаблонами?</string>
+			</item>
+			<item>
+				<key>template_tools</key>
+				<string>Может запускать инструменты стилей?</string>
+			</item>
+			<item>
+				<key>skindiff_reports</key>
+				<string>Может запускать инструмент сравнения стилей?</string>
+			</item>
+			<item>
+				<key>url_map_manage</key>
+				<string>Может управлять URL-переназначениями стилей?</string>
+			</item>
+			<item>
+				<key>url_map_delete</key>
+				<string>Может удалять URL-переназначения?</string>
+			</item>
+			<item>
+				<key>useragent_skin_map</key>
+				<string>Может управлять переназначениями по useragent?</string>
+			</item>
+			<item>
+				<key>easy_logo</key>
+				<string>Может воспользоваться инструментом смены логотипа?</string>
+			</item>
+			<item>
+				<key>settemplates_external</key>
+				<string>Может включить/выключить внешнее редактирование стилей?</string>
+			</item>
+			<item>
+				<key>settemplates_external_edit</key>
+				<string>Может использовать внешнее редактирование стилей?</string>
+			</item>			
+		</items>
+	</group>
+</permissions>

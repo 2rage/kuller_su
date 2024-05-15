@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление приложениями</grouptitle>
+		<grouplang>core_manage_apps</grouplang>
+		<items>
+			<item>
+				<key>app_manage</key>
+				<string>Может изменять/добавлять приложения?</string>
+			</item>
+			<item>
+				<key>app_delete</key>
+				<string>Может удалять приложения?</string>
+			</item>
+			<item>
+				<key>app_install</key>
+				<string>Может устанавливать новые приложения?</string>
+			</item>
+			<item>
+				<key>build_sphinx</key>
+				<string>Может создавать sphinx.conf? ВНИМАНИЕ: будут доступны данные для соединения с базой данных</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление модулями</grouptitle>
+		<grouplang>core_manage_modules</grouplang>
+		<items>
+			<item>
+				<key>module_manage</key>
+				<string>Может изменять/добавлять модули?</string>
+			</item>
+			<item>
+				<key>module_delete</key>
+				<string>Может удалять модули приложений?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Покупка приложений</grouptitle>
+		<grouplang>core_purchase_app</grouplang>
+		<items>
+			<item>
+				<key>purchase_app</key>
+				<string>Может просматривать страницу с платными приложениями?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление хуками</grouptitle>
+		<grouplang>core_manage_hooks</grouplang>
+		<items>
+			<item>
+				<key>hooks_manage</key>
+				<string>Может добавлять/изменять хуки?</string>
+			</item>
+			<item>
+				<key>hooks_delete</key>
+				<string>Может удалять хуки?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Расширения для Сообщества</grouptitle>
+		<grouplang>core_community_enhancements</grouplang>
+		<items>
+			<item>
+				<key>enhancements_manage</key>
+				<string>Может управлять расширениями?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

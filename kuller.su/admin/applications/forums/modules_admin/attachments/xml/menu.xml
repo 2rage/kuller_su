@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Типы Вложений</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Типы Вложений</subitemtitle>
+					<subitemlang>attachment_types</subitemlang>
+					<subsection>types</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>mime_view</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Статистика Вложений</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Статистика Вложений</subitemtitle>
+					<subitemlang>attachment_stats</subitemlang>
+					<subsection>stats</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>stats_attachments</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Поиск Вложений</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Поиск Вложений</subitemtitle>
+					<subitemlang>attachment_search</subitemlang>
+					<subsection>search</subsection>
+					<subitemurl>do=overview</subitemurl>
+					<subitemrolekey>view_attachments</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>				
+	</tabitems>
+</menu>

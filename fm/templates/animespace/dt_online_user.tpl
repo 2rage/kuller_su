@@ -1,0 +1,1 @@
+﻿{user}[delimeter]<br /> [/delimeter]

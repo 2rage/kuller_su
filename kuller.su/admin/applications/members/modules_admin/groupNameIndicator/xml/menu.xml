@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Легенда групп</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Легенда групп пользователей</subitemtitle>
+					<subsection>groupNameIndicator</subsection>
+					<subitemurl>do=display_order</subitemurl>
+					<subitemrolekey></subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+	</tabitems>
+</menu>

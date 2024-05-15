@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<installdata>
+	<action>
+		<file>index</file>
+		<menu>Авторизация</menu>
+		<position>0</position>
+	</action>
+	<action>
+		<file>overview</file>
+		<menu>Информация</menu>
+		<position>2</position>
+	</action>
+	<action>
+		<file>convert</file>
+		<menu>Конвертация</menu>
+		<position>3</position>
+	</action>
+	<action>
+		<file>apps</file>
+		<menu>Приложения</menu>
+		<position>4</position>
+	</action>
+	<action>
+		<file>license</file>
+		<menu>Лицензия</menu>
+		<position>5</position>
+	</action>
+	<action>
+		<file>upgrade</file>
+		<menu>Обновление</menu>
+		<position>6</position>
+	</action>
+	<action>
+		<file>done</file>
+		<menu>Завершение</menu>
+		<position>7</position>
+	</action>
+</installdata>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Управление нецензурными словами</grouptitle>
+		<grouplang>core_badwords</grouplang>
+		<items>
+			<item>
+				<key>badword_manage</key>
+				<string>Может добавлять/изменять?</string>
+			</item>
+			<item>
+				<key>badword_delete</key>
+				<string>Может удалять?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Смайлики</grouptitle>
+		<grouplang>core_emoticons</grouplang>
+		<items>
+			<item>
+				<key>emoticons_manage</key>
+				<string>Имеет доступ к менеджеру смайликов?</string>
+			</item>
+			<item>
+				<key>emoticons_edit</key>
+				<string>Может изменять смайлики?</string>
+			</item>
+			<item>
+				<key>emoticons_add</key>
+				<string>Может добавлять смайлики?</string>
+			</item>
+			<item>
+				<key>emoticons_delete</key>
+				<string>Может удалять смайлики?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>BB-коды</grouptitle>
+		<grouplang>core_bbcode</grouplang>
+		<items>
+			<item>
+				<key>bbcode_manage</key>
+				<string>Может добавлять/изменять?</string>
+			</item>
+			<item>
+				<key>bbcode_delete</key>
+				<string>Может удалять?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Расшифровка сокращений</grouptitle>
+		<grouplang>acronyms</grouplang>
+		<items>
+			<item>
+				<key>acronyms_manage</key>
+				<string>Может управлять сокращениями?</string>
+			</item>
+		</items>
+	</group>
+	<group>
+		<grouptitle>Управление Media-тегами</grouptitle>
+		<grouplang>core_media</grouplang>
+		<items>
+			<item>
+				<key>media_manage</key>
+				<string>Может добавлять/изменять?</string>
+			</item>
+			<item>
+				<key>media_delete</key>
+				<string>Может удалять?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

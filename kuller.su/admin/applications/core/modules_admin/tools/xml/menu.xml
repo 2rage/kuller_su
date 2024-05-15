@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<tabitems>
+		<item>
+			<title>Режим Повышенной Производительности</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Режим Повышенной Производительности</subitemtitle>
+					<subitemlang>performance</subitemlang>
+					<subsection>performance</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>performance_toggle</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Ключ лицензии</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Ключ лицензии</subitemtitle>
+					<subitemlang>licensekey</subitemlang>
+					<subsection>licensekey</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>licensekey_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Управление User Agent</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление User Agent</subitemtitle>
+					<subitemlang>uagents</subitemlang>
+					<subsection>uagents</subsection>
+					<subitemurl>do=list</subitemurl>
+					<subitemrolekey>uagents</subitemrolekey>
+					<subisredirect>0</subisredirect>
+					<subitemkeywords>spiders</subitemkeywords>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Пересчет и Перестроение</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Пересчет и Перестроение</subitemtitle>
+					<subitemlang>recount_rebuild</subitemlang>
+					<subsection>rebuild</subsection>
+					<subitemurl>do=rebuild_overview</subitemurl>
+					<subitemrolekey>rebuild_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Инструменты Очистки</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Инструменты Очистки</subitemtitle>
+					<subitemlang>cleanup_tools</subitemlang>
+					<subsection>rebuild</subsection>
+					<subitemurl>do=tools</subitemurl>
+					<subitemrolekey>cleanup_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Управление Разделами Помощи</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Разделами Помощи</subitemtitle>
+					<subitemlang>manage_help</subitemlang>
+					<subsection>help</subsection>
+					<subitemurl>do=help_overview</subitemurl>
+					<subitemrolekey>helpfiles_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Управление Кешем</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Кешем</subitemtitle>
+					<subitemlang>caches</subitemlang>
+					<subsection>cache</subsection>
+					<subitemurl>do=cache_overview</subitemurl>
+					<subitemrolekey>cache_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Система «Вопрос-ответ»</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Система «Вопрос-ответ»</subitemtitle>
+					<subitemlang>qanda</subitemlang>
+					<subsection>qanda</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>qanda_view</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>			
+		<item>
+			<title>Пользователи API</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Пользователи API</subitemtitle>
+					<subitemlang>api_users</subitemlang>
+					<subsection>api</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>api_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Управление Авторизацией</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Управление Авторизацией</subitemtitle>
+					<subitemlang>login_modules</subitemlang>
+					<subsection>login</subsection>
+					<subitemurl>do=login_overview</subitemurl>
+					<subitemrolekey>login_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Публикация Ссылок</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Публикация Ссылок</subitemtitle>
+					<subitemlang>sharelinks</subitemlang>
+					<subsection>sharelinks</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>sharelinks_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+		</item>
+		<item>
+			<title>Правила Входящей Почты</title>
+			<subitems>
+				<subitem>
+					<subitemtitle>Правила Входящей Почты</subitemtitle>
+					<subitemlang>incoming_emails</subitemlang>
+					<subsection>incomingEmails</subsection>
+					<subitemurl></subitemurl>
+					<subitemrolekey>incomingemail_manage</subitemrolekey>
+					<subisredirect>0</subisredirect>
+				</subitem>
+			</subitems>
+			<condition><![CDATA[
+					$systemvars = ipsRegistry::cache()->getCache('systemvars');
+					return $systemvars['incomingEmails'];
+				]]></condition>
+		</item>
+	</tabitems>
+</menu>

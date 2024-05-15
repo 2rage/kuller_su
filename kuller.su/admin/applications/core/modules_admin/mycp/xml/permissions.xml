@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<group>
+		<grouptitle>Панель управления</grouptitle>
+		<grouplang>core_mycp</grouplang>
+		<items>
+			<item>
+				<key>dashboard</key>
+				<string>Имеет доступ к панели?</string>
+			</item>
+		</items>
+	</group>
+</permissions>

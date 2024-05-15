@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hookexport>
+  <hookdata>
+    <config>
+      <hook_name><![CDATA[Финальный отсчет]]></hook_name>
+      <hook_desc><![CDATA[Хук финальный отсчет времени.]]></hook_desc>
+      <hook_author>Martin Aronsen/перевод IpbZona.ru</hook_author>
+      <hook_email/>
+      <hook_website>http://invisionmodding.com</hook_website>
+      <hook_update_check/>
+      <hook_requirements><![CDATA[a:3:{s:21:"required_applications";a:2:{s:14:"finalCountdown";a:3:{s:8:"app_name";s:28:"It&#39;s the Final Countdown";s:11:"min_version";i:11000;s:11:"max_version";i:0;}s:4:"core";a:3:{s:8:"app_name";s:6:"System";s:11:"min_version";i:32003;s:11:"max_version";i:0;}}s:20:"hook_php_version_min";s:0:"";s:20:"hook_php_version_max";s:0:"";}]]></hook_requirements>
+      <hook_version_human>1.1.1</hook_version_human>
+      <hook_version_long>11001</hook_version_long>
+      <hook_extra_data><![CDATA[a:1:{s:8:"database";a:0:{}}]]></hook_extra_data>
+      <hook_key>im_finalCountdown</hook_key>
+      <hook_global_caches>countdowns</hook_global_caches>
+    </config>
+  </hookdata>
+  <hookfiles>
+    <file>
+      <hook_file_real>finalCountdown_publicTop.php</hook_file_real>
+      <hook_type>templateHooks</hook_type>
+      <hook_classname>finalCountdown_publicTop</hook_classname>
+      <hook_data><![CDATA[a:8:{s:12:"dataLocation";s:0:"";s:14:"libApplication";s:0:"";s:15:"classToOverload";s:0:"";s:9:"skinGroup";s:11:"skin_global";s:12:"skinFunction";s:14:"globalTemplate";s:4:"type";s:2:"if";s:2:"id";s:15:"mainpageContent";s:8:"position";s:12:"post.startif";}]]></hook_data>
+      <hooks_source><![CDATA[<?php
+
+class finalCountdown_publicTop
+{
+	public function __construct()
+	{
+		/* Make object */
+		$this->registry =  ipsRegistry::instance();
+	}
+	
+	public function getOutput()
+	{
+		if ( ! $this->registry->isClassLoaded( 'finalCountdown_hookGateway' ) )
+		{
+			$classToLoad = IPSLib::loadLibrary( IPSLib::getAppDir( 'finalCountdown' ) . '/sources/hookGateway.php' , 'finalCountdown_hookGateway' );
+			$this->registry->setClass( 'finalCountdown_hookGateway', new $classToLoad( $this->registry ) );
+		}
+		
+		return $this->registry->getClass( 'finalCountdown_hookGateway' )->getCountdowns( 'top' );
+	}
+}]]></hooks_source>
+    </file>
+    <file>
+      <hook_file_real>finalCountdown_publicBottom.php</hook_file_real>
+      <hook_type>templateHooks</hook_type>
+      <hook_classname>finalCountdown_publicBottom</hook_classname>
+      <hook_data><![CDATA[a:8:{s:12:"dataLocation";s:0:"";s:14:"libApplication";s:0:"";s:15:"classToOverload";s:0:"";s:9:"skinGroup";s:11:"skin_global";s:12:"skinFunction";s:14:"globalTemplate";s:4:"type";s:2:"if";s:2:"id";s:15:"mainpageContent";s:8:"position";s:9:"pre.endif";}]]></hook_data>
+      <hooks_source><![CDATA[<?php
+
+class finalCountdown_publicBottom
+{
+	public function __construct()
+	{
+		/* Make object */
+		$this->registry =  ipsRegistry::instance();
+	}
+	
+	public function getOutput()
+	{
+		if ( ! $this->registry->isClassLoaded( 'finalCountdown_hookGateway' ) )
+		{
+			$classToLoad = IPSLib::loadLibrary( IPSLib::getAppDir( 'finalCountdown' ) . '/sources/hookGateway.php' , 'finalCountdown_hookGateway' );
+			$this->registry->setClass( 'finalCountdown_hookGateway', new $classToLoad( $this->registry ) );
+		}
+		
+		return $this->registry->getClass( 'finalCountdown_hookGateway' )->getCountdowns( 'bottom' );
+	}
+}]]></hooks_source>
+    </file>
+    <file>
+      <hook_file_real>finalCountdownIncludeJs.php</hook_file_real>
+      <hook_type>templateHooks</hook_type>
+      <hook_classname>finalCountdownIncludeJs</hook_classname>
+      <hook_data><![CDATA[a:8:{s:12:"dataLocation";s:0:"";s:14:"libApplication";s:0:"";s:15:"classToOverload";s:0:"";s:9:"skinGroup";s:11:"skin_global";s:12:"skinFunction";s:9:"includeJS";s:4:"type";s:2:"if";s:2:"id";s:8:"minifyjs";s:8:"position";s:10:"post.endif";}]]></hook_data>
+      <hooks_source><![CDATA[<?php
+
+
+class finalCountdownIncludeJs
+{
+	public function __construct()
+	{
+		$this->registry = ipsRegistry::instance();
+	}
+	
+	public function getOutput()
+	{
+		if ( method_exists( $this->registry->getClass( 'output' )->getTemplate( 'finalCountdown' ), 'finalCountdownIncludeJs' ) )
+		{
+			/* Figure out if we want to load a locale file */
+			$locale = $this->registry->getClass( 'class_localization' )->local;
+			$loadThis = "";
+			if ( $locale )
+			{
+				$countryCode = substr( $locale, 0, 2 );
+				
+				/* Ignore english */
+				if ( $countryCode != "en" )
+				{
+					if ( file_exists( DOC_IPS_ROOT_PATH . "/public/js/finalCountdown/locale/jquery.countdown-{$countryCode}.js" ) )
+					{
+						$loadThis = "js/finalCountdown/locale/jquery.countdown-{$countryCode}.js";
+					}
+				}
+			}
+			return $this->registry->getClass( 'output' )->getTemplate( 'finalCountdown' )->finalCountdownIncludeJs( $loadThis );
+		}
+		else
+		{
+			if ( $this->registry->member()->getProperty( 'g_access_cp' ) )
+			{
+				return "<div class='clearfix'>Failed to load template 'finalCountdownIncludeJs' from group 'skin_finalCountdown'</div>";
+			}
+		}
+	}
+}]]></hooks_source>
+    </file>
+  </hookfiles>
+  <hookextras_settings/>
+  <hookextras_language/>
+  <hookextras_modules/>
+  <hookextras_help/>
+  <hookextras_templates/>
+  <hookextras_css/>
+  <hookextras_tasks/>
+  <hookextras_database_create/>
+  <hookextras_database_alter/>
+  <hookextras_database_update/>
+  <hookextras_database_insert/>
+</hookexport>
