@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  samp_zombie_server:
+    container_name: kuller.su_samp_zombie_server
+    build: .
+    ports:
+      - "7777:7777/udp"
+    volumes:
+      - ./scriptfiles:/samp_zombie_server/scriptfiles
+      - ./gamemodes:/samp_zombie_server/gamemodes
+      - ./filterscripts:/samp_zombie_server/filterscripts
+      - ./plugins:/samp_zombie_server/plugins
+      - ./server_log.txt:/samp_zombie_server/server_log.txt
+    restart: always
+    
