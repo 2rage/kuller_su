@@ -2,17 +2,35 @@
 
 ## Contents
 
-- [Linux installation](#Linux)
+- [With docker (recommended)](#Docker)
+- [Linux](#Linux)
 - [Windows installation](#Windows)
+
+## Docker
+
+### Prerequisites 
+
+- Docker installed on your machine
+- User added to the Docker group: ```sudo usermod -aG docker {USER_NAME}```
+
+### Installation
+
+```bash
+docker pull ghcr.io/2rage/kuller_su/samp_zombie_server:latest
+```
 
 ## Linux
 
 ### Prerequisites 
 
 - On Debian we will enable the 32-bit architecture: ```sudo dpkg --add-architecture i386```
-- Update repo and install packages for 32-bit architecture: ```sudo apt install libfontconfig1:i386 libx11-6:i386 libxrender1:i386 libxext6:i386 libgl1-mesa-glx:i386 libglu1-mesa:i386 libglib2.0-0:i386 libsm6:i386```
+- Update repo and install packages for 32-bit architecture: 
 
-### Installation process
+```bash
+sudo apt install libfontconfig1:i386 libx11-6:i386 libxrender1:i386 libxext6:i386 libgl1-mesa-glx:i386 libglu1-mesa:i386 libglib2.0-0:i386 libsm6:i386
+```
+
+### Installation
 
 ```bash
 git clone https://github.com/2rage/KulleR.su.git
