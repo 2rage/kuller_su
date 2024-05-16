@@ -2,8 +2,9 @@ version: '3.8'
 
 services:
   samp_zombie_server:
-    container_name: kuller.su_samp_zombie_server
+    container_name: samp_zombie_server
     build: .
+    image: samp_zombie_server
     ports:
       - "7777:7777/udp"
     volumes:

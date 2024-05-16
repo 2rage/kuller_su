@@ -1,5 +1,5 @@
 SERVICE_NAME = samp_zombie_server
-CONTAINER_NAME = kuller.su_samp_zombie_server
+CONTAINER_NAME = samp_zombie_server
 
 .PHONY: build up down logs clean redeploy
 
