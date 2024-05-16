@@ -4,7 +4,7 @@ services:
   samp_zombie_server:
     container_name: samp_zombie_server
     build: .
-    image: samp_zombie_server
+    image: samp_zombie_server:v0.23-2f
     ports:
       - "7777:7777/udp"
     volumes:
@@ -14,4 +14,3 @@ services:
       - ./plugins:/samp_zombie_server/plugins
       - ./server_log.txt:/samp_zombie_server/server_log.txt
     restart: always
-    

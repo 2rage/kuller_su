@@ -1,5 +1,13 @@
 FROM debian:latest
 
+LABEL org.opencontainers.image.title="samp_zombie_server"
+LABEL org.opencontainers.image.description="Zombie SAMP server KulleR.su old project."
+LABEL org.opencontainers.image.version="v0.23-2f"
+LABEL org.opencontainers.image.created="2024-05-16T00:00:00Z"
+LABEL org.opencontainers.image.authors="2rage"
+LABEL org.opencontainers.image.source="https://github.com/2rage/kuller_su"
+LABEL org.opencontainers.image.documentation="https://github.com/2rage/kuller_su"
+
 RUN dpkg --add-architecture i386 \
     && apt-get update
 
