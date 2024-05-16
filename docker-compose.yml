@@ -4,7 +4,7 @@ services:
   samp_zombie_server:
     container_name: samp_zombie_server
     build: .
-    image: samp_zombie_server:v0.23-2f
+    image: samp_zombie_server:latest
     ports:
       - "7777:7777/udp"
     volumes:
