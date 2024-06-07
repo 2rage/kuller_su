@@ -1,5 +1,8 @@
 # KulleR.su
 
+[![Docker Build](https://github.com/2rage/kuller_su/actions/workflows/docker-build.yml/badge.svg)](https://github.com/2rage/kuller_su/actions/workflows/docker-build.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Old project of my game server based on the San Andreas Multiplayer client.
 
 ## ToDo:
